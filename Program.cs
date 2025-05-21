@@ -12,8 +12,10 @@ namespace proyecto_final_2._1
         /// Punto de entrada principal para la aplicación.
         /// </summary>
         [STAThread]
+
         static void Main()
         {
+            /// Se requiere para el modo visual de la aplicación
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1login());

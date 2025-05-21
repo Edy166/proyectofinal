@@ -26,7 +26,7 @@ namespace proyecto_final_2._1
         {
 
         }
-
+        /// Julio de leon 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 

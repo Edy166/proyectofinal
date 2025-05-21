@@ -31,7 +31,7 @@ namespace proyecto_final_2._1
         {
 
         }
-
+        //EDINSON BAUTISTA
         private void label1_Click(object sender, EventArgs e)
         {
 

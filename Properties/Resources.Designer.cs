@@ -73,6 +73,16 @@ namespace proyecto_final_2._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap emergency_exit_signaling_door_signs_direction_arrow_icon_134517 {
+            get {
+                object obj = ResourceManager.GetObject("emergency_exit_signaling_door_signs_direction_arrow_icon_134517", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap eye_icon_217639 {
             get {
                 object obj = ResourceManager.GetObject("eye_icon_217639", resourceCulture);

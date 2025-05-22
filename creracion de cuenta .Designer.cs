@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(creracion_de_cuenta));
             this.lblcrearcuenta = new System.Windows.Forms.Label();
             this.pnluser = new System.Windows.Forms.Panel();
-            this.lblcreacionusuario = new System.Windows.Forms.Label();
             this.tbxuser = new System.Windows.Forms.TextBox();
+            this.lblcreacionusuario = new System.Windows.Forms.Label();
             this.pnlpasword = new System.Windows.Forms.Panel();
             this.txtpasword = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,33 +42,35 @@
             this.pnlname = new System.Windows.Forms.Panel();
             this.txtname = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.picimgusu = new System.Windows.Forms.PictureBox();
             this.pnlpasswordconfirmar = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtconfirmacion = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.pnlprincipal = new System.Windows.Forms.Panel();
             this.btonewuser = new System.Windows.Forms.Button();
+            this.salirregistro = new System.Windows.Forms.PictureBox();
+            this.piccreacionojo2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.piccreacionojo1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picimgusu = new System.Windows.Forms.PictureBox();
             this.pnluser.SuspendLayout();
             this.pnlpasword.SuspendLayout();
             this.pnltel.SuspendLayout();
             this.pnlname.SuspendLayout();
+            this.pnlpasswordconfirmar.SuspendLayout();
+            this.pnlprincipal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.salirregistro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.piccreacionojo2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.piccreacionojo1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picimgusu)).BeginInit();
-            this.pnlpasswordconfirmar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.pnlprincipal.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblcrearcuenta
@@ -79,7 +81,7 @@
             this.lblcrearcuenta.ForeColor = System.Drawing.Color.White;
             this.lblcrearcuenta.Location = new System.Drawing.Point(221, 86);
             this.lblcrearcuenta.Name = "lblcrearcuenta";
-            this.lblcrearcuenta.Size = new System.Drawing.Size(201, 39);
+            this.lblcrearcuenta.Size = new System.Drawing.Size(197, 38);
             this.lblcrearcuenta.TabIndex = 0;
             this.lblcrearcuenta.Text = "Crear cuenta";
             // 
@@ -94,6 +96,17 @@
             this.pnluser.Size = new System.Drawing.Size(295, 80);
             this.pnluser.TabIndex = 2;
             // 
+            // tbxuser
+            // 
+            this.tbxuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
+            this.tbxuser.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tbxuser.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbxuser.ForeColor = System.Drawing.Color.Black;
+            this.tbxuser.Location = new System.Drawing.Point(42, 28);
+            this.tbxuser.Name = "tbxuser";
+            this.tbxuser.Size = new System.Drawing.Size(219, 30);
+            this.tbxuser.TabIndex = 2;
+            // 
             // lblcreacionusuario
             // 
             this.lblcreacionusuario.AutoSize = true;
@@ -106,21 +119,10 @@
             this.lblcreacionusuario.TabIndex = 1;
             this.lblcreacionusuario.Text = "Usuario";
             // 
-            // tbxuser
-            // 
-            this.tbxuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
-            this.tbxuser.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.tbxuser.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbxuser.ForeColor = System.Drawing.Color.Black;
-            this.tbxuser.Location = new System.Drawing.Point(42, 28);
-            this.tbxuser.Name = "tbxuser";
-            this.tbxuser.Size = new System.Drawing.Size(219, 30);
-            this.tbxuser.TabIndex = 2;
-            // 
             // pnlpasword
             // 
             this.pnlpasword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
-            this.pnlpasword.Controls.Add(this.pictureBox3);
+            this.pnlpasword.Controls.Add(this.piccreacionojo1);
             this.pnlpasword.Controls.Add(this.pictureBox2);
             this.pnlpasword.Controls.Add(this.txtpasword);
             this.pnlpasword.Controls.Add(this.label1);
@@ -208,6 +210,9 @@
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(219, 30);
             this.txtname.TabIndex = 2;
+            this.txtname.Text = "Nombre completo";
+            this.txtname.Enter += new System.EventHandler(this.txtname_Enter);
+            this.txtname.Leave += new System.EventHandler(this.txtname_Leave);
             // 
             // label3
             // 
@@ -221,112 +226,29 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Nombre \r\n";
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::proyecto_final_2._1.Properties.Resources.man_avatar_user_account_confirm_approve_complete_icon_153151;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 25);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::proyecto_final_2._1.Properties.Resources.phone_symbol_of_an_auricular_inside_a_circle_icon_icons_com_56478;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 25);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 3;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = global::proyecto_final_2._1.Properties.Resources.seo_social_web_network_internet_232_icon_icons_com_61542;
-            this.pictureBox3.Location = new System.Drawing.Point(223, 36);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(35, 22);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::proyecto_final_2._1.Properties.Resources.protection_password_safe_lock_icon_229455;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 25);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::proyecto_final_2._1.Properties.Resources.ic_username_97587;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // picimgusu
-            // 
-            this.picimgusu.Image = global::proyecto_final_2._1.Properties.Resources._012user1_100010;
-            this.picimgusu.Location = new System.Drawing.Point(286, 12);
-            this.picimgusu.Name = "picimgusu";
-            this.picimgusu.Size = new System.Drawing.Size(100, 71);
-            this.picimgusu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picimgusu.TabIndex = 1;
-            this.picimgusu.TabStop = false;
-            // 
             // pnlpasswordconfirmar
             // 
             this.pnlpasswordconfirmar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
-            this.pnlpasswordconfirmar.Controls.Add(this.pictureBox6);
+            this.pnlpasswordconfirmar.Controls.Add(this.piccreacionojo2);
             this.pnlpasswordconfirmar.Controls.Add(this.pictureBox7);
-            this.pnlpasswordconfirmar.Controls.Add(this.textBox3);
+            this.pnlpasswordconfirmar.Controls.Add(this.txtconfirmacion);
             this.pnlpasswordconfirmar.Controls.Add(this.label4);
             this.pnlpasswordconfirmar.Location = new System.Drawing.Point(78, 265);
             this.pnlpasswordconfirmar.Name = "pnlpasswordconfirmar";
             this.pnlpasswordconfirmar.Size = new System.Drawing.Size(340, 66);
             this.pnlpasswordconfirmar.TabIndex = 6;
             // 
-            // pictureBox6
+            // txtconfirmacion
             // 
-            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Image = global::proyecto_final_2._1.Properties.Resources.seo_social_web_network_internet_232_icon_icons_com_61542;
-            this.pictureBox6.Location = new System.Drawing.Point(223, 36);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(35, 22);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 4;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::proyecto_final_2._1.Properties.Resources.protection_password_safe_lock_icon_229455;
-            this.pictureBox7.Location = new System.Drawing.Point(3, 25);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 3;
-            this.pictureBox7.TabStop = false;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
-            this.textBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(42, 28);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.PasswordChar = '*';
-            this.textBox3.Size = new System.Drawing.Size(216, 30);
-            this.textBox3.TabIndex = 2;
+            this.txtconfirmacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
+            this.txtconfirmacion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txtconfirmacion.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtconfirmacion.ForeColor = System.Drawing.Color.Black;
+            this.txtconfirmacion.Location = new System.Drawing.Point(42, 28);
+            this.txtconfirmacion.Name = "txtconfirmacion";
+            this.txtconfirmacion.PasswordChar = '*';
+            this.txtconfirmacion.Size = new System.Drawing.Size(216, 30);
+            this.txtconfirmacion.TabIndex = 2;
             // 
             // label4
             // 
@@ -364,6 +286,103 @@
             this.btonewuser.TabIndex = 7;
             this.btonewuser.Text = "Crear usuario";
             this.btonewuser.UseVisualStyleBackColor = false;
+            this.btonewuser.Click += new System.EventHandler(this.btonewuser_Click);
+            // 
+            // salirregistro
+            // 
+            this.salirregistro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.salirregistro.Image = global::proyecto_final_2._1.Properties.Resources.emergency_exit_signaling_door_signs_direction_arrow_icon_134517;
+            this.salirregistro.Location = new System.Drawing.Point(-3, -2);
+            this.salirregistro.Name = "salirregistro";
+            this.salirregistro.Size = new System.Drawing.Size(70, 67);
+            this.salirregistro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.salirregistro.TabIndex = 8;
+            this.salirregistro.TabStop = false;
+            this.salirregistro.Click += new System.EventHandler(this.salirregistro_Click);
+            // 
+            // piccreacionojo2
+            // 
+            this.piccreacionojo2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.piccreacionojo2.Image = global::proyecto_final_2._1.Properties.Resources.seo_social_web_network_internet_232_icon_icons_com_61542;
+            this.piccreacionojo2.Location = new System.Drawing.Point(223, 36);
+            this.piccreacionojo2.Name = "piccreacionojo2";
+            this.piccreacionojo2.Size = new System.Drawing.Size(35, 22);
+            this.piccreacionojo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.piccreacionojo2.TabIndex = 4;
+            this.piccreacionojo2.TabStop = false;
+            this.piccreacionojo2.Click += new System.EventHandler(this.piccreacionojo2_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::proyecto_final_2._1.Properties.Resources.protection_password_safe_lock_icon_229455;
+            this.pictureBox7.Location = new System.Drawing.Point(3, 25);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(33, 33);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 3;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::proyecto_final_2._1.Properties.Resources.man_avatar_user_account_confirm_approve_complete_icon_153151;
+            this.pictureBox4.Location = new System.Drawing.Point(3, 25);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(33, 33);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::proyecto_final_2._1.Properties.Resources.phone_symbol_of_an_auricular_inside_a_circle_icon_icons_com_56478;
+            this.pictureBox5.Location = new System.Drawing.Point(3, 25);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(33, 33);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 3;
+            this.pictureBox5.TabStop = false;
+            // 
+            // piccreacionojo1
+            // 
+            this.piccreacionojo1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.piccreacionojo1.Image = global::proyecto_final_2._1.Properties.Resources.seo_social_web_network_internet_232_icon_icons_com_61542;
+            this.piccreacionojo1.Location = new System.Drawing.Point(223, 36);
+            this.piccreacionojo1.Name = "piccreacionojo1";
+            this.piccreacionojo1.Size = new System.Drawing.Size(35, 22);
+            this.piccreacionojo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.piccreacionojo1.TabIndex = 4;
+            this.piccreacionojo1.TabStop = false;
+            this.piccreacionojo1.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::proyecto_final_2._1.Properties.Resources.protection_password_safe_lock_icon_229455;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 25);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(33, 33);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::proyecto_final_2._1.Properties.Resources.ic_username_97587;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(33, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // picimgusu
+            // 
+            this.picimgusu.Image = global::proyecto_final_2._1.Properties.Resources._012user1_100010;
+            this.picimgusu.Location = new System.Drawing.Point(286, 12);
+            this.picimgusu.Name = "picimgusu";
+            this.picimgusu.Size = new System.Drawing.Size(100, 71);
+            this.picimgusu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picimgusu.TabIndex = 1;
+            this.picimgusu.TabStop = false;
             // 
             // creracion_de_cuenta
             // 
@@ -371,6 +390,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
             this.ClientSize = new System.Drawing.Size(682, 607);
+            this.Controls.Add(this.salirregistro);
             this.Controls.Add(this.pnlprincipal);
             this.Controls.Add(this.picimgusu);
             this.Controls.Add(this.lblcrearcuenta);
@@ -388,17 +408,18 @@
             this.pnltel.PerformLayout();
             this.pnlname.ResumeLayout(false);
             this.pnlname.PerformLayout();
+            this.pnlpasswordconfirmar.ResumeLayout(false);
+            this.pnlpasswordconfirmar.PerformLayout();
+            this.pnlprincipal.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.salirregistro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.piccreacionojo2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.piccreacionojo1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picimgusu)).EndInit();
-            this.pnlpasswordconfirmar.ResumeLayout(false);
-            this.pnlpasswordconfirmar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.pnlprincipal.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -416,7 +437,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox txtpasword;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox piccreacionojo1;
         private System.Windows.Forms.Panel pnltel;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.TextBox textBox1;
@@ -426,11 +447,12 @@
         private System.Windows.Forms.TextBox txtname;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel pnlpasswordconfirmar;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox piccreacionojo2;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtconfirmacion;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel pnlprincipal;
         private System.Windows.Forms.Button btonewuser;
+        private System.Windows.Forms.PictureBox salirregistro;
     }
 }

@@ -149,5 +149,8 @@
   <ItemGroup>
     <None Include="Resources\man_avatar_user_account_confirm_approve_complete_icon_153151.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency_exit_signaling_door_signs_direction_arrow_icon_134517.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

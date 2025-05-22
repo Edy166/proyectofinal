@@ -35,21 +35,21 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBoxusuario = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.picboxempresa = new System.Windows.Forms.PictureBox();
             this.paneldecontraseña = new System.Windows.Forms.Panel();
             this.txtcontraseña = new System.Windows.Forms.TextBox();
-            this.picboxojito = new System.Windows.Forms.PictureBox();
             this.btnlogin = new System.Windows.Forms.Button();
             this.blbrecuperacion = new System.Windows.Forms.Label();
-            this.picboxcontraseña = new System.Windows.Forms.PictureBox();
-            this.picboxusuario = new System.Windows.Forms.PictureBox();
             this.lblCrearCuenta = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.picboxojito = new System.Windows.Forms.PictureBox();
+            this.picboxempresa = new System.Windows.Forms.PictureBox();
+            this.picboxcontraseña = new System.Windows.Forms.PictureBox();
+            this.picboxusuario = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picboxempresa)).BeginInit();
             this.paneldecontraseña.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picboxojito)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxempresa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picboxcontraseña)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picboxusuario)).BeginInit();
             this.SuspendLayout();
@@ -124,17 +124,6 @@
             this.panel2.Size = new System.Drawing.Size(351, 545);
             this.panel2.TabIndex = 8;
             // 
-            // picboxempresa
-            // 
-            this.picboxempresa.BackColor = System.Drawing.Color.MidnightBlue;
-            this.picboxempresa.Image = global::proyecto_final_2._1.Properties.Resources.imagen_ro;
-            this.picboxempresa.Location = new System.Drawing.Point(-3, -18);
-            this.picboxempresa.Name = "picboxempresa";
-            this.picboxempresa.Size = new System.Drawing.Size(351, 544);
-            this.picboxempresa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picboxempresa.TabIndex = 0;
-            this.picboxempresa.TabStop = false;
-            // 
             // paneldecontraseña
             // 
             this.paneldecontraseña.Controls.Add(this.txtcontraseña);
@@ -155,19 +144,6 @@
             this.txtcontraseña.Size = new System.Drawing.Size(236, 34);
             this.txtcontraseña.TabIndex = 1;
             // 
-            // picboxojito
-            // 
-            this.picboxojito.BackColor = System.Drawing.Color.Transparent;
-            this.picboxojito.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picboxojito.Image = global::proyecto_final_2._1.Properties.Resources.eye_icon_217639;
-            this.picboxojito.Location = new System.Drawing.Point(248, 3);
-            this.picboxojito.Name = "picboxojito";
-            this.picboxojito.Size = new System.Drawing.Size(43, 26);
-            this.picboxojito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picboxojito.TabIndex = 0;
-            this.picboxojito.TabStop = false;
-            this.picboxojito.Click += new System.EventHandler(this.pictureBox1_Click_2);
-            // 
             // btnlogin
             // 
             this.btnlogin.BackColor = System.Drawing.Color.White;
@@ -179,6 +155,7 @@
             this.btnlogin.TabIndex = 10;
             this.btnlogin.Text = "Aceptar";
             this.btnlogin.UseVisualStyleBackColor = false;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // blbrecuperacion
             // 
@@ -191,26 +168,6 @@
             this.blbrecuperacion.TabIndex = 11;
             this.blbrecuperacion.Text = " ¿Has olvidado la contraseña?";
             this.blbrecuperacion.Click += new System.EventHandler(this.label2derecuperacion_Click);
-            // 
-            // picboxcontraseña
-            // 
-            this.picboxcontraseña.Image = global::proyecto_final_2._1.Properties.Resources.secure_safety_password_protection_security_lock_padlock_icon_219355;
-            this.picboxcontraseña.Location = new System.Drawing.Point(410, 277);
-            this.picboxcontraseña.Name = "picboxcontraseña";
-            this.picboxcontraseña.Size = new System.Drawing.Size(60, 38);
-            this.picboxcontraseña.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picboxcontraseña.TabIndex = 7;
-            this.picboxcontraseña.TabStop = false;
-            // 
-            // picboxusuario
-            // 
-            this.picboxusuario.Image = global::proyecto_final_2._1.Properties.Resources.ic_username_97587;
-            this.picboxusuario.Location = new System.Drawing.Point(404, 157);
-            this.picboxusuario.Name = "picboxusuario";
-            this.picboxusuario.Size = new System.Drawing.Size(60, 38);
-            this.picboxusuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picboxusuario.TabIndex = 6;
-            this.picboxusuario.TabStop = false;
             // 
             // lblCrearCuenta
             // 
@@ -236,6 +193,50 @@
             this.button1.Text = "Crear cuenta";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // picboxojito
+            // 
+            this.picboxojito.BackColor = System.Drawing.Color.Transparent;
+            this.picboxojito.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picboxojito.Image = global::proyecto_final_2._1.Properties.Resources.eye_icon_217639;
+            this.picboxojito.Location = new System.Drawing.Point(248, 3);
+            this.picboxojito.Name = "picboxojito";
+            this.picboxojito.Size = new System.Drawing.Size(43, 26);
+            this.picboxojito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picboxojito.TabIndex = 0;
+            this.picboxojito.TabStop = false;
+            this.picboxojito.Click += new System.EventHandler(this.pictureBox1_Click_2);
+            // 
+            // picboxempresa
+            // 
+            this.picboxempresa.BackColor = System.Drawing.Color.MidnightBlue;
+            this.picboxempresa.Image = global::proyecto_final_2._1.Properties.Resources.imagen_ro;
+            this.picboxempresa.Location = new System.Drawing.Point(-3, -18);
+            this.picboxempresa.Name = "picboxempresa";
+            this.picboxempresa.Size = new System.Drawing.Size(351, 544);
+            this.picboxempresa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picboxempresa.TabIndex = 0;
+            this.picboxempresa.TabStop = false;
+            // 
+            // picboxcontraseña
+            // 
+            this.picboxcontraseña.Image = global::proyecto_final_2._1.Properties.Resources.secure_safety_password_protection_security_lock_padlock_icon_219355;
+            this.picboxcontraseña.Location = new System.Drawing.Point(410, 277);
+            this.picboxcontraseña.Name = "picboxcontraseña";
+            this.picboxcontraseña.Size = new System.Drawing.Size(60, 38);
+            this.picboxcontraseña.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picboxcontraseña.TabIndex = 7;
+            this.picboxcontraseña.TabStop = false;
+            // 
+            // picboxusuario
+            // 
+            this.picboxusuario.Image = global::proyecto_final_2._1.Properties.Resources.ic_username_97587;
+            this.picboxusuario.Location = new System.Drawing.Point(404, 157);
+            this.picboxusuario.Name = "picboxusuario";
+            this.picboxusuario.Size = new System.Drawing.Size(60, 38);
+            this.picboxusuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picboxusuario.TabIndex = 6;
+            this.picboxusuario.TabStop = false;
             // 
             // Form1login
             // 
@@ -266,10 +267,10 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picboxempresa)).EndInit();
             this.paneldecontraseña.ResumeLayout(false);
             this.paneldecontraseña.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picboxojito)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxempresa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picboxcontraseña)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picboxusuario)).EndInit();
             this.ResumeLayout(false);

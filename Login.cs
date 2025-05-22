@@ -32,6 +32,8 @@ namespace proyecto_final_2._1
 
         }
 
+
+        //creacion del ojo para ver contraseña
         private void pictureBox1_Click_2(object sender, EventArgs e)
         {
             
@@ -48,6 +50,7 @@ namespace proyecto_final_2._1
             }
         }
 
+        // funcion para que cuando el usuario escriba sea de color negro 
         private void textBoxusuario_Enter(object sender, EventArgs e)
         {
             if (textBoxusuario.Text == "Ingrese su usuario")
@@ -59,6 +62,7 @@ namespace proyecto_final_2._1
 
         }
 
+        // funcion  para que aparezca un mensaje en el textbox de color gris
         private void textBoxusuario_Leave(object sender, EventArgs e)
         {
             if (textBoxusuario.Text == "")
@@ -68,12 +72,19 @@ namespace proyecto_final_2._1
             }
         }
 
+        // evento para crear usuario
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             creracion_de_cuenta crearcuenta = new creracion_de_cuenta();
             crearcuenta.ShowDialog();
             this.Show();
+        }
+
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

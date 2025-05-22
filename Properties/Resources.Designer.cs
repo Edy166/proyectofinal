@@ -63,6 +63,16 @@ namespace proyecto_final_2._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _012user1_100010 {
+            get {
+                object obj = ResourceManager.GetObject("012user1_100010", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap eye_icon_217639 {
             get {
                 object obj = ResourceManager.GetObject("eye_icon_217639", resourceCulture);
@@ -76,6 +86,16 @@ namespace proyecto_final_2._1.Properties {
         internal static System.Drawing.Bitmap ic_username_97587 {
             get {
                 object obj = ResourceManager.GetObject("ic-username_97587", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_phone_4341310_120556 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder-phone-4341310_120556", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +133,69 @@ namespace proyecto_final_2._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iphone_104915 {
+            get {
+                object obj = ResourceManager.GetObject("iphone_104915", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_2165333080_2048x2048 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-2165333080-2048x2048", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap man_avatar_user_account_confirm_approve_complete_icon_153151 {
+            get {
+                object obj = ResourceManager.GetObject("man_avatar_user_account_confirm_approve_complete_icon_153151", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap phone_symbol_of_an_auricular_inside_a_circle_icon_icons_com_56478 {
+            get {
+                object obj = ResourceManager.GetObject("phone-symbol-of-an-auricular-inside-a-circle_icon-icons.com_56478", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap protection_password_safe_lock_icon_229455 {
+            get {
+                object obj = ResourceManager.GetObject("protection_password_safe_lock_icon_229455", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap secure_safety_password_protection_security_lock_padlock_icon_219355 {
             get {
                 object obj = ResourceManager.GetObject("secure_safety_password_protection_security_lock_padlock_icon_219355", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seo_social_web_network_internet_232_icon_icons_com_61542 {
+            get {
+                object obj = ResourceManager.GetObject("seo-social-web-network-internet_232_icon-icons.com_61542", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +216,16 @@ namespace proyecto_final_2._1.Properties {
         internal static System.Drawing.Bitmap soluciones_S1 {
             get {
                 object obj = ResourceManager.GetObject("soluciones S1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_locked_21967 {
+            get {
+                object obj = ResourceManager.GetObject("user_locked_21967", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

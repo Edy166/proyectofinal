@@ -22,71 +22,6 @@ namespace proyecto_final_2._1
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-        /// Julio de leon 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-        //EDINSON BAUTISTA
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-        /*PRUEBA DE CAMBIO*/
-
-        private void label1usuario_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void textBoxcontraseña_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBoxusuario_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBoxusuario_Enter(object sender, EventArgs e)
-        {
-         
-        }
-
-        private void Z(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1login_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textcontraseña_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void label2derecuperacion_Click(object sender, EventArgs e)
         {
@@ -111,6 +46,34 @@ namespace proyecto_final_2._1
                 txtcontraseña.PasswordChar = '*';
                 contador = 0;
             }
+        }
+
+        private void textBoxusuario_Enter(object sender, EventArgs e)
+        {
+            if (textBoxusuario.Text == "Ingrese su usuario")
+            { 
+              textBoxusuario.Text = "";
+              textBoxusuario.ForeColor = Color.Black;
+
+            }
+
+        }
+
+        private void textBoxusuario_Leave(object sender, EventArgs e)
+        {
+            if (textBoxusuario.Text == "")
+            {
+                textBoxusuario.Text = "Ingrese su usuario";
+                textBoxusuario.ForeColor = Color.Gray;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            creracion_de_cuenta crearcuenta = new creracion_de_cuenta();
+            crearcuenta.ShowDialog();
+            this.Show();
         }
     }
 }

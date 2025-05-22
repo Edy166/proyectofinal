@@ -35,18 +35,20 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBoxusuario = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.picboxempresa = new System.Windows.Forms.PictureBox();
             this.paneldecontraseña = new System.Windows.Forms.Panel();
             this.txtcontraseña = new System.Windows.Forms.TextBox();
+            this.picboxojito = new System.Windows.Forms.PictureBox();
             this.btnlogin = new System.Windows.Forms.Button();
             this.blbrecuperacion = new System.Windows.Forms.Label();
-            this.picboxempresa = new System.Windows.Forms.PictureBox();
-            this.picboxojito = new System.Windows.Forms.PictureBox();
             this.picboxcontraseña = new System.Windows.Forms.PictureBox();
             this.picboxusuario = new System.Windows.Forms.PictureBox();
+            this.lblCrearCuenta = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.paneldecontraseña.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picboxempresa)).BeginInit();
+            this.paneldecontraseña.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picboxojito)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picboxcontraseña)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picboxusuario)).BeginInit();
@@ -63,7 +65,6 @@
             this.lbltitulo.TabIndex = 0;
             this.lbltitulo.Text = "BIENVENIDO A SOLUCIONES S.A";
             this.lbltitulo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.lbltitulo.Click += new System.EventHandler(this.label1usuario_Click);
             // 
             // lblusuario
             // 
@@ -71,7 +72,7 @@
             this.lblusuario.BackColor = System.Drawing.Color.Transparent;
             this.lblusuario.Font = new System.Drawing.Font("Mongolian Baiti", 16.2F, System.Drawing.FontStyle.Bold);
             this.lblusuario.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lblusuario.Location = new System.Drawing.Point(509, 124);
+            this.lblusuario.Location = new System.Drawing.Point(515, 124);
             this.lblusuario.Name = "lblusuario";
             this.lblusuario.Size = new System.Drawing.Size(124, 30);
             this.lblusuario.TabIndex = 1;
@@ -83,12 +84,11 @@
             this.lblcontraseña.BackColor = System.Drawing.Color.Transparent;
             this.lblcontraseña.Font = new System.Drawing.Font("Mongolian Baiti", 16.2F, System.Drawing.FontStyle.Bold);
             this.lblcontraseña.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lblcontraseña.Location = new System.Drawing.Point(500, 232);
+            this.lblcontraseña.Location = new System.Drawing.Point(515, 230);
             this.lblcontraseña.Name = "lblcontraseña";
             this.lblcontraseña.Size = new System.Drawing.Size(148, 30);
             this.lblcontraseña.TabIndex = 2;
             this.lblcontraseña.Text = "Contraseña";
-            this.lblcontraseña.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // panel1
             // 
@@ -111,8 +111,9 @@
             this.textBoxusuario.Size = new System.Drawing.Size(234, 34);
             this.textBoxusuario.TabIndex = 4;
             this.textBoxusuario.Tag = "";
-            this.textBoxusuario.TextChanged += new System.EventHandler(this.textBoxusuario_TextChanged);
+            this.textBoxusuario.Text = "Ingrese su usuario";
             this.textBoxusuario.Enter += new System.EventHandler(this.textBoxusuario_Enter);
+            this.textBoxusuario.Leave += new System.EventHandler(this.textBoxusuario_Leave);
             // 
             // panel2
             // 
@@ -122,7 +123,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(351, 545);
             this.panel2.TabIndex = 8;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // picboxempresa
+            // 
+            this.picboxempresa.BackColor = System.Drawing.Color.MidnightBlue;
+            this.picboxempresa.Image = global::proyecto_final_2._1.Properties.Resources.imagen_ro;
+            this.picboxempresa.Location = new System.Drawing.Point(-3, -18);
+            this.picboxempresa.Name = "picboxempresa";
+            this.picboxempresa.Size = new System.Drawing.Size(351, 544);
+            this.picboxempresa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picboxempresa.TabIndex = 0;
+            this.picboxempresa.TabStop = false;
             // 
             // paneldecontraseña
             // 
@@ -143,13 +154,26 @@
             this.txtcontraseña.PasswordChar = '*';
             this.txtcontraseña.Size = new System.Drawing.Size(236, 34);
             this.txtcontraseña.TabIndex = 1;
-            this.txtcontraseña.TextChanged += new System.EventHandler(this.textcontraseña_TextChanged);
+            // 
+            // picboxojito
+            // 
+            this.picboxojito.BackColor = System.Drawing.Color.Transparent;
+            this.picboxojito.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picboxojito.Image = global::proyecto_final_2._1.Properties.Resources.eye_icon_217639;
+            this.picboxojito.Location = new System.Drawing.Point(248, 3);
+            this.picboxojito.Name = "picboxojito";
+            this.picboxojito.Size = new System.Drawing.Size(43, 26);
+            this.picboxojito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picboxojito.TabIndex = 0;
+            this.picboxojito.TabStop = false;
+            this.picboxojito.Click += new System.EventHandler(this.pictureBox1_Click_2);
             // 
             // btnlogin
             // 
             this.btnlogin.BackColor = System.Drawing.Color.White;
+            this.btnlogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnlogin.Font = new System.Drawing.Font("Mongolian Baiti", 16.2F, System.Drawing.FontStyle.Bold);
-            this.btnlogin.Location = new System.Drawing.Point(492, 358);
+            this.btnlogin.Location = new System.Drawing.Point(501, 327);
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(171, 44);
             this.btnlogin.TabIndex = 10;
@@ -161,35 +185,12 @@
             this.blbrecuperacion.AutoSize = true;
             this.blbrecuperacion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.blbrecuperacion.Font = new System.Drawing.Font("Mongolian Baiti", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blbrecuperacion.Location = new System.Drawing.Point(380, 432);
+            this.blbrecuperacion.Location = new System.Drawing.Point(397, 398);
             this.blbrecuperacion.Name = "blbrecuperacion";
             this.blbrecuperacion.Size = new System.Drawing.Size(373, 30);
             this.blbrecuperacion.TabIndex = 11;
             this.blbrecuperacion.Text = " ¿Has olvidado la contraseña?";
             this.blbrecuperacion.Click += new System.EventHandler(this.label2derecuperacion_Click);
-            // 
-            // picboxempresa
-            // 
-            this.picboxempresa.BackColor = System.Drawing.Color.MidnightBlue;
-            this.picboxempresa.Image = global::proyecto_final_2._1.Properties.Resources.imagen_ro;
-            this.picboxempresa.Location = new System.Drawing.Point(-3, -18);
-            this.picboxempresa.Name = "picboxempresa";
-            this.picboxempresa.Size = new System.Drawing.Size(351, 544);
-            this.picboxempresa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picboxempresa.TabIndex = 0;
-            this.picboxempresa.TabStop = false;
-            // 
-            // picboxojito
-            // 
-            this.picboxojito.BackColor = System.Drawing.Color.Transparent;
-            this.picboxojito.Image = global::proyecto_final_2._1.Properties.Resources.eye_icon_217639;
-            this.picboxojito.Location = new System.Drawing.Point(248, 3);
-            this.picboxojito.Name = "picboxojito";
-            this.picboxojito.Size = new System.Drawing.Size(43, 26);
-            this.picboxojito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picboxojito.TabIndex = 0;
-            this.picboxojito.TabStop = false;
-            this.picboxojito.Click += new System.EventHandler(this.pictureBox1_Click_2);
             // 
             // picboxcontraseña
             // 
@@ -211,6 +212,31 @@
             this.picboxusuario.TabIndex = 6;
             this.picboxusuario.TabStop = false;
             // 
+            // lblCrearCuenta
+            // 
+            this.lblCrearCuenta.AutoSize = true;
+            this.lblCrearCuenta.BackColor = System.Drawing.Color.Transparent;
+            this.lblCrearCuenta.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCrearCuenta.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.lblCrearCuenta.Location = new System.Drawing.Point(377, 484);
+            this.lblCrearCuenta.Name = "lblCrearCuenta";
+            this.lblCrearCuenta.Size = new System.Drawing.Size(245, 24);
+            this.lblCrearCuenta.TabIndex = 12;
+            this.lblCrearCuenta.Text = "¿No tienes una cuenta?";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(650, 474);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(164, 44);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Crear cuenta";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -218,6 +244,8 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(826, 560);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblCrearCuenta);
             this.Controls.Add(this.blbrecuperacion);
             this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.paneldecontraseña);
@@ -234,15 +262,13 @@
             this.MaximizeBox = false;
             this.Name = "Form1login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Iniciar Sesión";
-            this.Load += new System.EventHandler(this.Form1login_Load);
-            this.TextChanged += new System.EventHandler(this.Z);
+            this.Text = " ";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picboxempresa)).EndInit();
             this.paneldecontraseña.ResumeLayout(false);
             this.paneldecontraseña.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picboxempresa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picboxojito)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picboxcontraseña)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picboxusuario)).EndInit();
@@ -267,6 +293,8 @@
         private System.Windows.Forms.TextBox txtcontraseña;
         private System.Windows.Forms.Button btnlogin;
         private System.Windows.Forms.Label blbrecuperacion;
+        private System.Windows.Forms.Label lblCrearCuenta;
+        private System.Windows.Forms.Button button1;
     }
 }
 

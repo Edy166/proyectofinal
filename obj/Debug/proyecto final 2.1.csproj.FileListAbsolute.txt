@@ -20,3 +20,4 @@ C:\Users\julio\source\repos\Edy166\proyectofinal\obj\Debug\proyecto final 2.1.cs
 C:\Users\julio\source\repos\Edy166\proyectofinal\obj\Debug\proyecto final 2.1.csproj.CoreCompileInputs.cache
 C:\Users\julio\source\repos\Edy166\proyectofinal\obj\Debug\proyecto final 2.1.exe
 C:\Users\julio\source\repos\Edy166\proyectofinal\obj\Debug\proyecto final 2.1.pdb
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\proyecto final 2.1\obj\Debug\proyecto_final_2._1.creracion_de_cuenta.resources

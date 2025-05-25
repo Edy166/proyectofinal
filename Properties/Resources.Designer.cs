@@ -93,6 +93,16 @@ namespace proyecto_final_2._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fire_exit_emergency_door_icon_196812 {
+            get {
+                object obj = ResourceManager.GetObject("fire_exit_emergency_door_icon_196812", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ic_username_97587 {
             get {
                 object obj = ResourceManager.GetObject("ic-username_97587", resourceCulture);
@@ -173,6 +183,16 @@ namespace proyecto_final_2._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Phone_Icon_icon_icons_com_76442 {
+            get {
+                object obj = ResourceManager.GetObject("Phone_Icon_icon-icons.com_76442", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap phone_symbol_of_an_auricular_inside_a_circle_icon_icons_com_56478 {
             get {
                 object obj = ResourceManager.GetObject("phone-symbol-of-an-auricular-inside-a-circle_icon-icons.com_56478", resourceCulture);
@@ -226,6 +246,26 @@ namespace proyecto_final_2._1.Properties {
         internal static System.Drawing.Bitmap soluciones_S1 {
             get {
                 object obj = ResourceManager.GetObject("soluciones S1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_complain_web_ui_icon_233736 {
+            get {
+                object obj = ResourceManager.GetObject("user_complain_web_ui_icon_233736", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_icon_250929 {
+            get {
+                object obj = ResourceManager.GetObject("user_icon_250929", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

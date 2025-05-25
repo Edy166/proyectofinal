@@ -84,5 +84,10 @@ namespace proyecto_final_2._1
             loginForm.Show();
            
         }
+
+        private void creracion_de_cuenta_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

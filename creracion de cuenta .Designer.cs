@@ -400,6 +400,7 @@
             this.Name = "creracion_de_cuenta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro de usuario";
+            this.Load += new System.EventHandler(this.creracion_de_cuenta_Load);
             this.pnluser.ResumeLayout(false);
             this.pnluser.PerformLayout();
             this.pnlpasword.ResumeLayout(false);

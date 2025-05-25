@@ -152,5 +152,17 @@
   <ItemGroup>
     <None Include="Resources\emergency_exit_signaling_door_signs_direction_arrow_icon_134517.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_complain_web_ui_icon_233736.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_icon_250929.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone_Icon_icon-icons.com_76442.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire_exit_emergency_door_icon_196812.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

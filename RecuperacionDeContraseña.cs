@@ -31,12 +31,13 @@ namespace proyecto_final_2._1
 
         private void btonusuariovalidar_Click(object sender, EventArgs e)
         {
-          this.Hide();
-          cambio_de_contrasena cambio = new cambio_de_contrasena();
-          cambio.ShowDialog();
-          this.Show();
-        }
+            this.Hide();  
+
+            cambio_de_contrasena cambio = new cambio_de_contrasena();
+            cambio.ShowDialog();  
 
     
+            this.Close();
+        }
     }
 }

@@ -13,10 +13,10 @@ namespace proyecto_final_2._1
     public partial class Form1login : Form
     {
         public int contador = 0;
-        private object formRecuperar;
 
-        public RecuperacionDeContraseña RecuperacionDeContraseña { get; private set; }
-
+      //  private object formRecuperar;
+      
+      
         public Form1login()
         {
             InitializeComponent();

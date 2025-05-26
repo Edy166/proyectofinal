@@ -140,6 +140,7 @@
             this.btonusuariovalidar.TabIndex = 8;
             this.btonusuariovalidar.Text = "Confirmar identidad";
             this.btonusuariovalidar.UseVisualStyleBackColor = false;
+            this.btonusuariovalidar.Click += new System.EventHandler(this.btonusuariovalidar_Click);
             // 
             // salirregistro
             // 
@@ -151,6 +152,7 @@
             this.salirregistro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.salirregistro.TabIndex = 9;
             this.salirregistro.TabStop = false;
+            this.salirregistro.Click += new System.EventHandler(this.salirregistro_Click);
             // 
             // pictelefonovalidar
             // 
@@ -200,6 +202,7 @@
             this.Name = "contrasena_olvidada";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Verificación de identidad";
+            
             this.pnlverificacion.ResumeLayout(false);
             this.pnlverificacion.PerformLayout();
             this.pnlverificaciontelefono.ResumeLayout(false);

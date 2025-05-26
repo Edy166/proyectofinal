@@ -73,6 +73,16 @@ namespace proyecto_final_2._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3775732_access_padlock_passkey_password_security_108981 {
+            get {
+                object obj = ResourceManager.GetObject("3775732-access-padlock-passkey-password-security_108981", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap emergency_exit_signaling_door_signs_direction_arrow_icon_134517 {
             get {
                 object obj = ResourceManager.GetObject("emergency_exit_signaling_door_signs_direction_arrow_icon_134517", resourceCulture);
@@ -166,6 +176,16 @@ namespace proyecto_final_2._1.Properties {
         internal static System.Drawing.Bitmap istockphoto_2165333080_2048x2048 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-2165333080-2048x2048", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_943955978_2048x2048 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-943955978-2048x2048", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

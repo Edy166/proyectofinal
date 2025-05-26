@@ -77,17 +77,10 @@ namespace proyecto_final_2._1
         private void btonewuser_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MessageBox.Show("Usuario creado con exito");
-
-            Form1login loginForm = new Form1login();
-            this.Close();
-            loginForm.Show();
-           
+            MessageBox.Show("Usuario creado con exito");    
+            creracion_de_cuenta cerrar = new creracion_de_cuenta();
+            cerrar.Name = txtname.Text;
         }
 
-        private void creracion_de_cuenta_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

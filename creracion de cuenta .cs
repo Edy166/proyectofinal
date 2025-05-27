@@ -50,21 +50,13 @@ namespace proyecto_final_2._1
         // funcion para que cuando el usuario escriba sea de color negro 
         private void txtname_Enter(object sender, EventArgs e)
         {
-            if (txtname.Text == "Nombre completo")
-            {
-                txtname.Text = "";
-                txtname.ForeColor = Color.Black;
-            }
+            
         }
 
         // creacion de la funcion para que cuando el usuario no escriba nada el texto vuelva a su color original
         private void txtname_Leave(object sender, EventArgs e)
         {
-            if (txtname.Text == "")
-            { 
-              txtname.Text = "Nombre completo";
-              txtname.ForeColor = Color.Black;
-            }
+            
         }
 
         private void salirregistro_Click(object sender, EventArgs e)
@@ -82,5 +74,6 @@ namespace proyecto_final_2._1
             cerrar.Name = txtname.Text;
         }
 
+       
     }
 }

@@ -262,8 +262,6 @@
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(219, 30);
             this.txtname.TabIndex = 2;
-            this.txtname.Text = "Nombre completo";
-    
             this.txtname.Enter += new System.EventHandler(this.txtname_Enter);
             this.txtname.Leave += new System.EventHandler(this.txtname_Leave);
             // 
@@ -273,11 +271,11 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(102, 0);
+            this.label3.Location = new System.Drawing.Point(57, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 26);
+            this.label3.Size = new System.Drawing.Size(182, 26);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Nombre \r\n";
+            this.label3.Text = "Nombre completo";
             // 
             // pnlpasswordconfirmar
             // 
@@ -384,7 +382,6 @@
             this.picimgusu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picimgusu.TabIndex = 1;
             this.picimgusu.TabStop = false;
-
             // 
             // creracion_de_cuenta
             // 

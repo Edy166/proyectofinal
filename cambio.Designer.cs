@@ -73,6 +73,7 @@
             this.picojonuevacontra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picojonuevacontra.TabIndex = 4;
             this.picojonuevacontra.TabStop = false;
+            this.picojonuevacontra.Click += new System.EventHandler(this.picojonuevacontra_Click);
             // 
             // piccandado
             // 
@@ -152,6 +153,7 @@
             this.piccreacionojo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.piccreacionojo2.TabIndex = 4;
             this.piccreacionojo2.TabStop = false;
+            this.piccreacionojo2.Click += new System.EventHandler(this.piccreacionojo2_Click);
             // 
             // pictureBox7
             // 
@@ -174,6 +176,7 @@
             this.txtconfirmacion.PasswordChar = '*';
             this.txtconfirmacion.Size = new System.Drawing.Size(216, 30);
             this.txtconfirmacion.TabIndex = 2;
+           
             // 
             // label4
             // 

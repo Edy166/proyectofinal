@@ -111,7 +111,6 @@
             this.textBoxusuario.Size = new System.Drawing.Size(234, 34);
             this.textBoxusuario.TabIndex = 4;
             this.textBoxusuario.Tag = "";
-            this.textBoxusuario.Text = "Ingrese su usuario";
             this.textBoxusuario.Enter += new System.EventHandler(this.textBoxusuario_Enter);
             this.textBoxusuario.Leave += new System.EventHandler(this.textBoxusuario_Leave);
             // 

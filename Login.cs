@@ -16,7 +16,7 @@ namespace proyecto_final_2._1
 
       //  private object formRecuperar;
       
-      
+      // prueba 
         public Form1login()
         {
             InitializeComponent();
@@ -53,23 +53,14 @@ namespace proyecto_final_2._1
         // funcion para que cuando el usuario escriba sea de color negro 
         private void textBoxusuario_Enter(object sender, EventArgs e)
         {
-            if (textBoxusuario.Text == "Ingrese su usuario")
-            { 
-              textBoxusuario.Text = "";
-              textBoxusuario.ForeColor = Color.Black;
-
-            }
+            
 
         }
 
         // funcion  para que aparezca un mensaje en el textbox de color gris
         private void textBoxusuario_Leave(object sender, EventArgs e)
         {
-            if (textBoxusuario.Text == "")
-            {
-                textBoxusuario.Text = "Ingrese su usuario";
-                textBoxusuario.ForeColor = Color.Gray;
-            }
+
         }
 
         // evento para crear usuario
@@ -86,6 +77,8 @@ namespace proyecto_final_2._1
         {
 
         }
+
+       
     }
 }
 

@@ -156,5 +156,14 @@ namespace proyecto_final_2._1
 
             }
         }
+
+        private void txtname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+       
     }
 }

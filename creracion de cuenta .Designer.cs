@@ -123,7 +123,7 @@
             this.lblcreacionusuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
             this.lblcreacionusuario.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcreacionusuario.ForeColor = System.Drawing.Color.Black;
-            this.lblcreacionusuario.Location = new System.Drawing.Point(99, 0);
+            this.lblcreacionusuario.Location = new System.Drawing.Point(99, 2);
             this.lblcreacionusuario.Name = "lblcreacionusuario";
             this.lblcreacionusuario.Size = new System.Drawing.Size(90, 26);
             this.lblcreacionusuario.TabIndex = 1;
@@ -173,7 +173,7 @@
             this.txtpasword.Name = "txtpasword";
             this.txtpasword.PasswordChar = '*';
             this.txtpasword.Size = new System.Drawing.Size(216, 30);
-            this.txtpasword.TabIndex = 2;
+            this.txtpasword.TabIndex = 3;
             // 
             // label1
             // 
@@ -184,7 +184,7 @@
             this.label1.Location = new System.Drawing.Point(82, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 26);
-            this.label1.TabIndex = 1;
+            this.label1.TabIndex = 2;
             this.label1.Text = "Contraseña";
             // 
             // pnltel
@@ -217,7 +217,7 @@
             this.txttelefono.Location = new System.Drawing.Point(42, 28);
             this.txttelefono.Name = "txttelefono";
             this.txttelefono.Size = new System.Drawing.Size(219, 30);
-            this.txttelefono.TabIndex = 2;
+            this.txttelefono.TabIndex = 5;
             // 
             // label2
             // 
@@ -228,7 +228,7 @@
             this.label2.Location = new System.Drawing.Point(95, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 26);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 4;
             this.label2.Text = "Telefono";
             // 
             // pnlname
@@ -261,7 +261,8 @@
             this.txtname.Location = new System.Drawing.Point(42, 28);
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(219, 30);
-            this.txtname.TabIndex = 2;
+            this.txtname.TabIndex = 1;
+            this.txtname.TextChanged += new System.EventHandler(this.txtname_TextChanged);
             this.txtname.Enter += new System.EventHandler(this.txtname_Enter);
             this.txtname.Leave += new System.EventHandler(this.txtname_Leave);
             // 
@@ -274,7 +275,7 @@
             this.label3.Location = new System.Drawing.Point(57, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(182, 26);
-            this.label3.TabIndex = 1;
+            this.label3.TabIndex = 0;
             this.label3.Text = "Nombre completo";
             // 
             // pnlpasswordconfirmar
@@ -321,7 +322,7 @@
             this.txtconfirmacion.Name = "txtconfirmacion";
             this.txtconfirmacion.PasswordChar = '*';
             this.txtconfirmacion.Size = new System.Drawing.Size(216, 30);
-            this.txtconfirmacion.TabIndex = 2;
+            this.txtconfirmacion.TabIndex = 4;
             // 
             // label4
             // 
@@ -332,7 +333,7 @@
             this.label4.Location = new System.Drawing.Point(3, -1);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(283, 26);
-            this.label4.TabIndex = 1;
+            this.label4.TabIndex = 3;
             this.label4.Text = "Confirmación de contraseña";
             // 
             // pnlprincipal

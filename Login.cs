@@ -42,13 +42,24 @@ namespace proyecto_final_2._1
             }
         }
 
+        public void LimpiarCampos()
+        {
+            textBoxusuario.Clear();
+            txtcontraseña.Clear();
+            contador = 0;
+            txtcontraseña.PasswordChar = '*';
+        }
+
+
+
         private void textBoxusuario_Enter(object sender, EventArgs e)
         {
-            // Tu código personalizado si deseas
+                // Tu código personalizado si deseas
         }
 
         private void textBoxusuario_Leave(object sender, EventArgs e)
         {
+          
             // Tu código personalizado si deseas
         }
 
@@ -56,8 +67,9 @@ namespace proyecto_final_2._1
         {
             this.Hide();
             creracion_de_cuenta crearcuenta = new creracion_de_cuenta();
-            crearcuenta.ShowDialog();
+            crearcuenta.ShowDialog ();
             this.Show();
+
         }
 
         private void btnlogin_Click(object sender, EventArgs e)
@@ -85,11 +97,10 @@ namespace proyecto_final_2._1
 
                         if (resultado > 0)
                         {
-                            MessageBox.Show("Inicio de sesión exitoso.");
-                            // Aquí puedes abrir otro formulario, por ejemplo:
-                            // MenuPrincipal menu = new MenuPrincipal();
-                            // menu.Show();
-                            // this.Hide();
+                            this.Hide();
+                            Menu_Principal menu = new Menu_Principal();
+                            menu.ShowDialog();
+                            this.Close();
                         }
                         else
                         {

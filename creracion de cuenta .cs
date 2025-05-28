@@ -52,7 +52,7 @@ namespace proyecto_final_2._1
         {
             
         }
-
+    
         // creacion de la funcion para que cuando el usuario no escriba nada el texto vuelva a su color original
         private void txtname_Leave(object sender, EventArgs e)
         {
@@ -61,9 +61,10 @@ namespace proyecto_final_2._1
 
         private void salirregistro_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            creracion_de_cuenta cerrar = new creracion_de_cuenta();
-            cerrar.Name = txtname.Text;
+            this.Close();
+            Form1login login = new Form1login();
+            login.Name = "creracion_de_cuenta";
+
         }
 
         private void btonewuser_Click(object sender, EventArgs e)

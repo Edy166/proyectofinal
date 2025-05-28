@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace proyecto_final_2._1
 {
@@ -69,12 +70,85 @@ namespace proyecto_final_2._1
 
         private void btonewuser_Click(object sender, EventArgs e)
         {
-            this.Close();
-            MessageBox.Show("Usuario creado con exito");    
-            creracion_de_cuenta cerrar = new creracion_de_cuenta();
-            cerrar.Name = txtname.Text;
-        }
+            //BLOQUE PARA QUE USUARIO CREE SU CUENTA
+            string usuario = txtname.Text.Trim();
+            string contrasena = txtpasword.Text.Trim();
+            string confirmar_contrasena = txtconfirmacion.Text.Trim();
 
-       
+            if (usuario == "" || contrasena == "" || confirmar_contrasena == "")
+            {
+                MessageBox.Show("POR FAVOR INGRESE TODOS LOS CAMPOS.");
+                return;
+            }
+
+            if (contrasena != confirmar_contrasena)
+            {
+                MessageBox.Show("LAS CONTRASEÑAS NO SON IDÉNTICAS.");
+                return;
+            }
+
+            // Dirección del servidor completa de Azure y agregar los datos del servidor, base de datos y contraseña del servidor.
+            string connectionString = ("Server = tcp:proyectoprogramacion.database.windows.net,1433; Initial Catalog = proyectofinal; Persist Security Info = False; User ID = proyectofinal;Password=2025*umg;MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;");
+
+            using (SqlConnection conexion = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conexion.Open();
+
+                    // Crear la tabla si no existe.
+                    string CrearTabla = "IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='usuarios1' AND xtype='U')" +
+                        "CREATE TABLE usuarios1 (ID INT IDENTITY(1,1) PRIMARY KEY, USUARIO NVARCHAR(50) NOT NULL, PASSWORD NVARCHAR(100) NOT NULL)";
+                    using (SqlCommand comando = new SqlCommand(CrearTabla, conexion))
+                    {
+                        comando.ExecuteNonQuery();
+                    }
+
+                        //Para validar si el usuario ya existe.
+                        string ValidarUsuario = "SELECT COUNT(*) FROM usuarios1 WHERE USUARIO = @usuario";
+                    using (SqlCommand comando = new SqlCommand(ValidarUsuario, conexion))
+                    {
+                        comando.Parameters.AddWithValue("@usuario", usuario);
+                        int existe = (int)comando.ExecuteScalar();
+                        if (existe > 0)
+                        {
+                            MessageBox.Show("USUARIO EXISTENTE, POR FAVOR ELIJA OTRO.");
+                            return;
+                        }
+                    }
+
+                    // Insertar el nuevo usuario en la base de datos.
+                    string NewUser = "INSERT INTO usuarios1 (USUARIO, PASSWORD) VALUES (@usuario, @contrasena)";
+                    using (SqlCommand comando = new SqlCommand(NewUser, conexion))
+                    {
+                        comando.Parameters.AddWithValue("@usuario", usuario);
+                        comando.Parameters.AddWithValue("@contrasena", contrasena);
+                        
+                        int resultado = comando.ExecuteNonQuery();
+
+                        if (resultado > 0)
+                        {
+                            MessageBox.Show("CUENTA CREADA EXITOSAMENTE.");
+                            this.Hide();
+                            Form1login loginForm = new Form1login();
+                            loginForm.ShowDialog();
+                            this.Close();
+                        }
+                        else
+                        {
+                            MessageBox.Show("ERROR.POR FAVOR INTENTE DE NUEVO.");
+                        }
+                    }
+                }
+
+                catch (Exception ex)
+                {
+                   MessageBox.Show("ERROR AL CONECTAR CON LA BASE DE DATOS: " + ex.Message);
+                }
+
+
+
+            }
+        }
     }
 }

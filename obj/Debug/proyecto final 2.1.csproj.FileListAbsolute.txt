@@ -36,3 +36,6 @@ C:\Users\Dell Latitude 7420\source\repos\Edy166\proyectofinal\obj\Debug\proyecto
 C:\Users\Dell Latitude 7420\source\repos\Edy166\proyectofinal\obj\Debug\proyecto final 2.1.exe
 C:\Users\Dell Latitude 7420\source\repos\Edy166\proyectofinal\obj\Debug\proyecto final 2.1.pdb
 C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\proyecto final 2.1\obj\Debug\proyecto_final_2._1.Menu_Principal.resources
+C:\Users\julio\source\repos\Edy166\proyectofinal\obj\Debug\proyecto_final_2._1.cambio_de_contrasena.resources
+C:\Users\julio\source\repos\Edy166\proyectofinal\obj\Debug\proyecto_final_2._1.creracion_de_cuenta.resources
+C:\Users\julio\source\repos\Edy166\proyectofinal\obj\Debug\proyecto_final_2._1.Menu_Principal.resources

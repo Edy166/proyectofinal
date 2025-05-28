@@ -41,7 +41,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pnltel = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txttelefono = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.pnlname = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -191,7 +191,7 @@
             // 
             this.pnltel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
             this.pnltel.Controls.Add(this.pictureBox5);
-            this.pnltel.Controls.Add(this.textBox1);
+            this.pnltel.Controls.Add(this.txttelefono);
             this.pnltel.Controls.Add(this.label2);
             this.pnltel.Location = new System.Drawing.Point(78, 337);
             this.pnltel.Name = "pnltel";
@@ -208,16 +208,16 @@
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
             // 
-            // textBox1
+            // txttelefono
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
-            this.textBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(42, 28);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(219, 30);
-            this.textBox1.TabIndex = 2;
+            this.txttelefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
+            this.txttelefono.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txttelefono.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txttelefono.ForeColor = System.Drawing.Color.Black;
+            this.txttelefono.Location = new System.Drawing.Point(42, 28);
+            this.txttelefono.Name = "txttelefono";
+            this.txttelefono.Size = new System.Drawing.Size(219, 30);
+            this.txttelefono.TabIndex = 2;
             // 
             // label2
             // 
@@ -439,7 +439,7 @@
         private System.Windows.Forms.PictureBox piccreacionojo1;
         private System.Windows.Forms.Panel pnltel;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txttelefono;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel pnlname;
         private System.Windows.Forms.PictureBox pictureBox4;

@@ -71,9 +71,13 @@ namespace proyecto_final_2._1
         private void btonewuser_Click(object sender, EventArgs e)
         {
             //BLOQUE PARA QUE USUARIO CREE SU CUENTA
-            string usuario = txtname.Text.Trim();
+            string Nombre = txtname.Text.Trim();
+            string usuario = tbxuser.Text.Trim();
             string contrasena = txtpasword.Text.Trim();
             string confirmar_contrasena = txtconfirmacion.Text.Trim();
+            string telefono = txttelefono.Text.Trim();
+
+
 
             if (usuario == "" || contrasena == "" || confirmar_contrasena == "")
             {
@@ -118,12 +122,14 @@ namespace proyecto_final_2._1
                     }
 
                     // Insertar el nuevo usuario en la base de datos.
-                    string NewUser = "INSERT INTO usuarios1 (USUARIO, PASSWORD) VALUES (@usuario, @contrasena)";
+                    string NewUser = "INSERT INTO usuarios1 (NOMBRE,USUARIO, PASSWORD,TELEFONO) VALUES ( @nombre,@usuario,@contrasena,@tefono)";
                     using (SqlCommand comando = new SqlCommand(NewUser, conexion))
                     {
+                        comando.Parameters.AddWithValue("@nombre", Nombre);
                         comando.Parameters.AddWithValue("@usuario", usuario);
                         comando.Parameters.AddWithValue("@contrasena", contrasena);
-                        
+                        comando.Parameters.AddWithValue("@tefono", telefono); 
+
                         int resultado = comando.ExecuteNonQuery();
 
                         if (resultado > 0)

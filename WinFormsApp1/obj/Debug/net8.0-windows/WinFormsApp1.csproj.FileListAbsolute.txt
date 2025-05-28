@@ -1,0 +1,16 @@
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll

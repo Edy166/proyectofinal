@@ -38,6 +38,10 @@ namespace proyecto_final_2._1
 
     
             this.Close();
+            //Prueba
+
+
+           //Codigo de prueba 
         }
     }
 }

@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace proyecto_final_2._1
 {
-    public partial class Menu_Principal : Form
+    public partial class menu_agregar : Form
     {
-        public Menu_Principal()
+        public menu_agregar()
         {
             InitializeComponent();
-        }
-
-        private void bt_Agregar_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            menu_agregar agregar = new menu_agregar();
-            agregar.ShowDialog();
-            this.Show();
         }
     }
 }

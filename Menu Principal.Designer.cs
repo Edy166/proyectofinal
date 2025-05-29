@@ -31,33 +31,33 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu_Principal));
             this.lbl_bienvenida = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pic_configuracion = new System.Windows.Forms.PictureBox();
             this.lbl_agregar_producto = new System.Windows.Forms.Label();
             this.lbl_ver_producto = new System.Windows.Forms.Label();
             this.lbl_eliminar_producto = new System.Windows.Forms.Label();
             this.lbl_editar_producto = new System.Windows.Forms.Label();
             this.lbl_producto_con_poco_stock = new System.Windows.Forms.Label();
+            this.bt_Agregar = new System.Windows.Forms.Button();
+            this.bt_Eliminar = new System.Windows.Forms.Button();
+            this.bt_editar = new System.Windows.Forms.Button();
+            this.bt_ver = new System.Windows.Forms.Button();
+            this.bt_poco_stock = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pic_configuracion = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btonewuser = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_configuracion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_configuracion)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_bienvenida
@@ -65,7 +65,7 @@
             this.lbl_bienvenida.AutoSize = true;
             this.lbl_bienvenida.Font = new System.Drawing.Font("Times New Roman", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lbl_bienvenida.ForeColor = System.Drawing.Color.Black;
-            this.lbl_bienvenida.Location = new System.Drawing.Point(125, 18);
+            this.lbl_bienvenida.Location = new System.Drawing.Point(154, 18);
             this.lbl_bienvenida.Name = "lbl_bienvenida";
             this.lbl_bienvenida.Size = new System.Drawing.Size(424, 38);
             this.lbl_bienvenida.TabIndex = 0;
@@ -80,6 +80,16 @@
             this.panel1.Size = new System.Drawing.Size(315, 611);
             this.panel1.TabIndex = 2;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::proyecto_final_2._1.Properties.Resources.imagen_ro;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 86);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(312, 407);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(120)))), ((int)(((byte)(140)))));
@@ -89,6 +99,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(883, 82);
             this.panel2.TabIndex = 3;
+            // 
+            // pic_configuracion
+            // 
+            this.pic_configuracion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_configuracion.Image = global::proyecto_final_2._1.Properties.Resources.setting_cog_settings_icon_177223;
+            this.pic_configuracion.Location = new System.Drawing.Point(785, 0);
+            this.pic_configuracion.Name = "pic_configuracion";
+            this.pic_configuracion.Size = new System.Drawing.Size(82, 81);
+            this.pic_configuracion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pic_configuracion.TabIndex = 1;
+            this.pic_configuracion.TabStop = false;
             // 
             // lbl_agregar_producto
             // 
@@ -134,17 +155,77 @@
             // 
             this.lbl_producto_con_poco_stock.AutoSize = true;
             this.lbl_producto_con_poco_stock.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_producto_con_poco_stock.Location = new System.Drawing.Point(943, 452);
+            this.lbl_producto_con_poco_stock.Location = new System.Drawing.Point(963, 452);
             this.lbl_producto_con_poco_stock.Name = "lbl_producto_con_poco_stock";
             this.lbl_producto_con_poco_stock.Size = new System.Drawing.Size(140, 32);
             this.lbl_producto_con_poco_stock.TabIndex = 8;
             this.lbl_producto_con_poco_stock.Text = "Poco stock";
-            this.lbl_producto_con_poco_stock.Click += new System.EventHandler(this.lbl_producto_con_poco_stock_Click);
+            // 
+            // bt_Agregar
+            // 
+            this.bt_Agregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(200)))), ((int)(((byte)(220)))));
+            this.bt_Agregar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_Agregar.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.bt_Agregar.Location = new System.Drawing.Point(377, 206);
+            this.bt_Agregar.Name = "bt_Agregar";
+            this.bt_Agregar.Size = new System.Drawing.Size(152, 44);
+            this.bt_Agregar.TabIndex = 14;
+            this.bt_Agregar.Text = "Aceptar";
+            this.bt_Agregar.UseVisualStyleBackColor = false;
+            this.bt_Agregar.Click += new System.EventHandler(this.bt_Agregar_Click);
+            // 
+            // bt_Eliminar
+            // 
+            this.bt_Eliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(200)))), ((int)(((byte)(220)))));
+            this.bt_Eliminar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_Eliminar.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.bt_Eliminar.Location = new System.Drawing.Point(664, 376);
+            this.bt_Eliminar.Name = "bt_Eliminar";
+            this.bt_Eliminar.Size = new System.Drawing.Size(152, 44);
+            this.bt_Eliminar.TabIndex = 15;
+            this.bt_Eliminar.Text = "Aceptar";
+            this.bt_Eliminar.UseVisualStyleBackColor = false;
+            // 
+            // bt_editar
+            // 
+            this.bt_editar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(200)))), ((int)(((byte)(220)))));
+            this.bt_editar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_editar.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.bt_editar.Location = new System.Drawing.Point(931, 206);
+            this.bt_editar.Name = "bt_editar";
+            this.bt_editar.Size = new System.Drawing.Size(152, 44);
+            this.bt_editar.TabIndex = 16;
+            this.bt_editar.Text = "Aceptar";
+            this.bt_editar.UseVisualStyleBackColor = false;
+            // 
+            // bt_ver
+            // 
+            this.bt_ver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(200)))), ((int)(((byte)(220)))));
+            this.bt_ver.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_ver.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.bt_ver.Location = new System.Drawing.Point(377, 554);
+            this.bt_ver.Name = "bt_ver";
+            this.bt_ver.Size = new System.Drawing.Size(152, 44);
+            this.bt_ver.TabIndex = 17;
+            this.bt_ver.Text = "Aceptar";
+            this.bt_ver.UseVisualStyleBackColor = false;
+            // 
+            // bt_poco_stock
+            // 
+            this.bt_poco_stock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(200)))), ((int)(((byte)(220)))));
+            this.bt_poco_stock.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_poco_stock.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.bt_poco_stock.Location = new System.Drawing.Point(951, 554);
+            this.bt_poco_stock.Name = "bt_poco_stock";
+            this.bt_poco_stock.Size = new System.Drawing.Size(152, 44);
+            this.bt_poco_stock.TabIndex = 18;
+            this.bt_poco_stock.Text = "Aceptar";
+            this.bt_poco_stock.UseVisualStyleBackColor = false;
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::proyecto_final_2._1.Properties.Resources.danger_attention_warning_alert_alarm_icon_221071;
-            this.pictureBox6.Location = new System.Drawing.Point(949, 487);
+            this.pictureBox6.Location = new System.Drawing.Point(969, 487);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(124, 61);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -191,99 +272,17 @@
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
-            // pic_configuracion
-            // 
-            this.pic_configuracion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pic_configuracion.Image = global::proyecto_final_2._1.Properties.Resources.setting_cog_settings_icon_177223;
-            this.pic_configuracion.Location = new System.Drawing.Point(785, 0);
-            this.pic_configuracion.Name = "pic_configuracion";
-            this.pic_configuracion.Size = new System.Drawing.Size(82, 81);
-            this.pic_configuracion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pic_configuracion.TabIndex = 1;
-            this.pic_configuracion.TabStop = false;
-            this.pic_configuracion.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::proyecto_final_2._1.Properties.Resources.imagen_ro;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 86);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(312, 407);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btonewuser
-            // 
-            this.btonewuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(200)))), ((int)(((byte)(220)))));
-            this.btonewuser.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btonewuser.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.btonewuser.Location = new System.Drawing.Point(377, 206);
-            this.btonewuser.Name = "btonewuser";
-            this.btonewuser.Size = new System.Drawing.Size(152, 44);
-            this.btonewuser.TabIndex = 14;
-            this.btonewuser.Text = "Aceptar";
-            this.btonewuser.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(200)))), ((int)(((byte)(220)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.button1.Location = new System.Drawing.Point(664, 376);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(152, 44);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Aceptar";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(200)))), ((int)(((byte)(220)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.button2.Location = new System.Drawing.Point(931, 206);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(152, 44);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "Aceptar";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(200)))), ((int)(((byte)(220)))));
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.button3.Location = new System.Drawing.Point(377, 554);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(152, 44);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "Aceptar";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(200)))), ((int)(((byte)(220)))));
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.button4.Location = new System.Drawing.Point(944, 554);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(152, 44);
-            this.button4.TabIndex = 18;
-            this.button4.Text = "Aceptar";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
             // Menu_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(200)))), ((int)(((byte)(220)))));
             this.ClientSize = new System.Drawing.Size(1179, 610);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btonewuser);
+            this.Controls.Add(this.bt_poco_stock);
+            this.Controls.Add(this.bt_ver);
+            this.Controls.Add(this.bt_editar);
+            this.Controls.Add(this.bt_Eliminar);
+            this.Controls.Add(this.bt_Agregar);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -303,15 +302,15 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal";
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_configuracion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_configuracion)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -334,10 +333,10 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button btonewuser;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button bt_Agregar;
+        private System.Windows.Forms.Button bt_Eliminar;
+        private System.Windows.Forms.Button bt_editar;
+        private System.Windows.Forms.Button bt_ver;
+        private System.Windows.Forms.Button bt_poco_stock;
     }
 }

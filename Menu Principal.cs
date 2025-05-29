@@ -17,6 +17,12 @@ namespace proyecto_final_2._1
             InitializeComponent();
         }
 
-       
+        private void bt_Agregar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            menu_agregar agregar = new menu_agregar();
+            agregar.ShowDialog();
+            this.Show();
+        }
     }
 }

@@ -110,6 +110,7 @@ namespace proyecto_final_2._1
                 }
                 catch (Exception ex)
                 {
+                    //prueba xd 
                     MessageBox.Show("Error al conectar con la base de datos: " + ex.Message);
                 }
             }

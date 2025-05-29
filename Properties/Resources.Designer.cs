@@ -83,6 +83,47 @@ namespace proyecto_final_2._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_to_cart_commerce_and_shopping_online_store_shoppingcart_onlineshopping_icon_227785 {
+            get {
+                object obj = ResourceManager.GetObject("add_to_cart_commerce_and_shopping_online_store_shoppingcart_onlineshopping_icon_2" +
+                        "27785", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_28_may_2025__08_09_02_p_m_ {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 28 may 2025, 08_09_02 p.m.", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap compose_edit_modify_icon_177770 {
+            get {
+                object obj = ResourceManager.GetObject("compose_edit_modify_icon_177770", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap danger_attention_warning_alert_alarm_icon_221071 {
+            get {
+                object obj = ResourceManager.GetObject("danger_attention_warning_alert_alarm_icon_221071", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap emergency_exit_signaling_door_signs_direction_arrow_icon_134517 {
             get {
                 object obj = ResourceManager.GetObject("emergency_exit_signaling_door_signs_direction_arrow_icon_134517", resourceCulture);
@@ -193,9 +234,29 @@ namespace proyecto_final_2._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap magnifier_1_icon_icons_com_56924 {
+            get {
+                object obj = ResourceManager.GetObject("magnifier-1_icon-icons.com_56924", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap man_avatar_user_account_confirm_approve_complete_icon_153151 {
             get {
                 object obj = ResourceManager.GetObject("man_avatar_user_account_confirm_approve_complete_icon_153151", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mbricartadd_99553 {
+            get {
+                object obj = ResourceManager.GetObject("mbricartadd_99553", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -246,6 +307,26 @@ namespace proyecto_final_2._1.Properties {
         internal static System.Drawing.Bitmap seo_social_web_network_internet_232_icon_icons_com_61542 {
             get {
                 object obj = ResourceManager.GetObject("seo-social-web-network-internet_232_icon-icons.com_61542", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seo_social_web_network_internet_262_icon_icons_com_61518 {
+            get {
+                object obj = ResourceManager.GetObject("seo-social-web-network-internet_262_icon-icons.com_61518", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap setting_cog_settings_icon_177223 {
+            get {
+                object obj = ResourceManager.GetObject("setting_cog_settings_icon_177223", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

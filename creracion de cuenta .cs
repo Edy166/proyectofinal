@@ -8,6 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+//using Vonage;
+//using Vonage.Request;
+//using Vonage.Messaging;
+//using System.Security.Cryptography.X509Certificates;
+//======= LO DE ARRIBA ES PARA AÑADIR API DE VONAGE PARA ENVIAR SMS =======//
 
 namespace proyecto_final_2._1
 {
@@ -76,6 +81,8 @@ namespace proyecto_final_2._1
             string contrasena = txtpasword.Text.Trim();
             string confirmar_contrasena = txtconfirmacion.Text.Trim();
             string telefono = txttelefono.Text.Trim();
+
+           
 
 
 
@@ -150,12 +157,27 @@ namespace proyecto_final_2._1
                 catch (Exception ex)
                 {
                    MessageBox.Show("ERROR AL CONECTAR CON LA BASE DE DATOS: " + ex.Message);
-                }
-
-
-
-            }
+                }       
+            }        
         }
+
+
+        //====== ENVIAR SMS CON VONAGE ======//
+        /* public class EnviarSMS
+         {
+             public static void Enviartoken(string celular, string token) 
+             { 
+                 var credenciales = Credentials.FromApiKeyAndSecret(Credentials.ApiKey, Credentials.ApiSecret); 
+                 var cliente = new VonageClient(credenciales);
+
+                 var response = cliente.SmsClient.SendAnSms(new SendSmsRequest
+                 {
+                     To = celular,
+                     From = "VonageAPI",
+                     Text = $"Su token de verificación es: {token}"
+                 });
+             }
+        */
 
         private void txtname_TextChanged(object sender, EventArgs e)
         {

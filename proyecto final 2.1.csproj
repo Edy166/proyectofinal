@@ -187,5 +187,29 @@
   <ItemGroup>
     <None Include="Resources\3775732-access-padlock-passkey-password-security_108981.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting_cog_settings_icon_177223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier-1_icon-icons.com_56924.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 28 may 2025, 08_09_02 p.m..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_to_cart_commerce_and_shopping_online_store_shoppingcart_onlineshopping_icon_227785.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mbricartadd_99553.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compose_edit_modify_icon_177770.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seo-social-web-network-internet_262_icon-icons.com_61518.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\danger_attention_warning_alert_alarm_icon_221071.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

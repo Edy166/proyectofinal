@@ -17,6 +17,14 @@ namespace proyecto_final_2._1
             InitializeComponent();
         }
 
-       
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_producto_con_poco_stock_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

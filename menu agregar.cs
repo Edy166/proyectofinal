@@ -16,5 +16,12 @@ namespace proyecto_final_2._1
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Menu_Principal menu = new Menu_Principal();
+            menu.Name = "menu_agregar";
+        }
     }
 }

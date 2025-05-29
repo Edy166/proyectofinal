@@ -220,5 +220,8 @@
   <ItemGroup>
     <None Include="Resources\danger_attention_warning_alert_alarm_icon_221071.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product_shop_box_item_icon_228152.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

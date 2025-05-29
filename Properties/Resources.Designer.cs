@@ -284,6 +284,16 @@ namespace proyecto_final_2._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap product_shop_box_item_icon_228152 {
+            get {
+                object obj = ResourceManager.GetObject("product_shop_box_item_icon_228152", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap protection_password_safe_lock_icon_229455 {
             get {
                 object obj = ResourceManager.GetObject("protection_password_safe_lock_icon_229455", resourceCulture);

@@ -68,3 +68,4 @@ C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\obj\Debug\proyecto fina
 C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\obj\Debug\proyecto final 2.1.exe
 C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\obj\Debug\proyecto final 2.1.pdb
 C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\obj\Debug\proyecto_final_2._1.menu_agregar.resources
+C:\Users\Victus\Desktop\proyectofinal\obj\Debug\proyecto_final_2._1.menu_agregar.resources

@@ -124,17 +124,17 @@
   <data name="user_locked_21967" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_locked_21967.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ChatGPT Image 28 may 2025, 08_09_02 p.m." type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChatGPT Image 28 may 2025, 08_09_02 p.m..png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user_complain_web_ui_icon_233736" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_complain_web_ui_icon_233736.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="istockphoto-943955978-2048x2048" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-943955978-2048x2048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iphone_104915" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iphone_104915.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="danger_attention_warning_alert_alarm_icon_221071" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\danger_attention_warning_alert_alarm_icon_221071.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-2165333080-2048x2048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-2165333080-2048x2048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mbricartadd_99553" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mbricartadd_99553.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,11 +157,14 @@
   <data name="eye_icon_217639" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eye_icon_217639.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="imagen en blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagen en blanco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Phone_Icon_icon-icons.com_76442" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Phone_Icon_icon-icons.com_76442.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imagen en blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imagen en blanco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ChatGPT Image 28 may 2025, 08_09_02 p.m." type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image 28 may 2025, 08_09_02 p.m..png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="setting_cog_settings_icon_177223" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\setting_cog_settings_icon_177223.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,8 +202,8 @@
   <data name="add_to_cart_commerce_and_shopping_online_store_shoppingcart_onlineshopping_icon_227785" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add_to_cart_commerce_and_shopping_online_store_shoppingcart_onlineshopping_icon_227785.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="istockphoto-2165333080-2048x2048" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\istockphoto-2165333080-2048x2048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user_complain_web_ui_icon_233736" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_complain_web_ui_icon_233736.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="012user1_100010" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\012user1_100010.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,7 +217,7 @@
   <data name="iconfinder-phone-4341310_120556" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder-phone-4341310_120556.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="danger_attention_warning_alert_alarm_icon_221071" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\danger_attention_warning_alert_alarm_icon_221071.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="product_shop_box_item_icon_228152" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\product_shop_box_item_icon_228152.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

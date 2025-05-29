@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -31,17 +32,48 @@ namespace proyecto_final_2._1
 
         private void btonusuariovalidar_Click(object sender, EventArgs e)
         {
-            this.Hide();  
+            string usuario = tbxuser.Text.Trim();
+            string telefono = txttelefono.Text.Trim();
 
-            cambio_de_contrasena cambio = new cambio_de_contrasena();
-            cambio.ShowDialog();  
+            if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(telefono))
+            {
+                MessageBox.Show("Por favor, complete ambos campos.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
-    
-            this.Close();
-            //Prueba
+            string connectionString = "Server=tcp:proyectoprogramacion.database.windows.net,1433;Initial Catalog=proyectofinal;Persist Security Info=False;User ID=proyectofinal;Password=2025*umg;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            string query = "SELECT COUNT(*) FROM usuarios1 WHERE USUARIO = @usuario AND TELEFONO = @telefono";
 
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@usuario", usuario);
+                cmd.Parameters.AddWithValue("@telefono", telefono);
 
-           //Codigo de prueba 
+                try
+                {
+                    conn.Open();
+                    int resultado = (int)cmd.ExecuteScalar();
+
+                    if (resultado > 0)
+                    {
+                        MessageBox.Show("Identidad confirmada. Puede continuar con la recuperación.", "Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        // Puedes continuar con el siguiente paso, por ejemplo:
+                        // cambio_de_contrasena cambio = new cambio_de_contrasena();
+                        // cambio.Show();
+                        // this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario o teléfono incorrecto.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al conectar con la base de datos: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
     }
 }

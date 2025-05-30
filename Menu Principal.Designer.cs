@@ -31,7 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu_Principal));
             this.lbl_bienvenida = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pic_configuracion = new System.Windows.Forms.PictureBox();
             this.lbl_agregar_producto = new System.Windows.Forms.Label();
             this.lbl_ver_producto = new System.Windows.Forms.Label();
             this.lbl_eliminar_producto = new System.Windows.Forms.Label();
@@ -43,31 +45,29 @@
             this.bt_ver = new System.Windows.Forms.Button();
             this.bt_poco_stock = new System.Windows.Forms.Button();
             this.panel_menu_principal = new System.Windows.Forms.Panel();
+            this.panel_cerrar_sesion = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.lbl_cerrar_sesion = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pic_configuracion = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel_cerrar_sesion = new System.Windows.Forms.Panel();
-            this.lbl_cerrar_sesion = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_configuracion)).BeginInit();
             this.panel_menu_principal.SuspendLayout();
+            this.panel_cerrar_sesion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_configuracion)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel_cerrar_sesion.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbl_bienvenida
@@ -90,6 +90,16 @@
             this.panel1.Size = new System.Drawing.Size(315, 611);
             this.panel1.TabIndex = 2;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::proyecto_final_2._1.Properties.Resources.imagen_ro;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 86);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(312, 407);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(120)))), ((int)(((byte)(140)))));
@@ -99,6 +109,18 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1158, 82);
             this.panel2.TabIndex = 3;
+            // 
+            // pic_configuracion
+            // 
+            this.pic_configuracion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_configuracion.Image = global::proyecto_final_2._1.Properties.Resources.setting_cog_settings_icon_177223;
+            this.pic_configuracion.Location = new System.Drawing.Point(1064, -2);
+            this.pic_configuracion.Name = "pic_configuracion";
+            this.pic_configuracion.Size = new System.Drawing.Size(82, 81);
+            this.pic_configuracion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pic_configuracion.TabIndex = 1;
+            this.pic_configuracion.TabStop = false;
+            this.pic_configuracion.Click += new System.EventHandler(this.pic_configuracion_Click);
             // 
             // lbl_agregar_producto
             // 
@@ -186,6 +208,7 @@
             this.bt_editar.TabIndex = 16;
             this.bt_editar.Text = "Aceptar";
             this.bt_editar.UseVisualStyleBackColor = false;
+            this.bt_editar.Click += new System.EventHandler(this.bt_editar_Click);
             // 
             // bt_ver
             // 
@@ -221,6 +244,65 @@
             this.panel_menu_principal.Name = "panel_menu_principal";
             this.panel_menu_principal.Size = new System.Drawing.Size(348, 226);
             this.panel_menu_principal.TabIndex = 19;
+            // 
+            // panel_cerrar_sesion
+            // 
+            this.panel_cerrar_sesion.Controls.Add(this.button3);
+            this.panel_cerrar_sesion.Controls.Add(this.button2);
+            this.panel_cerrar_sesion.Controls.Add(this.lbl_cerrar_sesion);
+            this.panel_cerrar_sesion.Location = new System.Drawing.Point(3, 99);
+            this.panel_cerrar_sesion.Name = "panel_cerrar_sesion";
+            this.panel_cerrar_sesion.Size = new System.Drawing.Size(333, 100);
+            this.panel_cerrar_sesion.TabIndex = 21;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(120)))), ((int)(((byte)(140)))));
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(194, 41);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(117, 44);
+            this.button3.TabIndex = 22;
+            this.button3.Text = "Cancelar";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(120)))), ((int)(((byte)(140)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(20, 41);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(128, 44);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "Confirmar ";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // lbl_cerrar_sesion
+            // 
+            this.lbl_cerrar_sesion.AutoSize = true;
+            this.lbl_cerrar_sesion.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cerrar_sesion.Location = new System.Drawing.Point(3, 0);
+            this.lbl_cerrar_sesion.Name = "lbl_cerrar_sesion";
+            this.lbl_cerrar_sesion.Size = new System.Drawing.Size(299, 23);
+            this.lbl_cerrar_sesion.TabIndex = 20;
+            this.lbl_cerrar_sesion.Text = "¿Seguro que deseas cerrar sesión?";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(120)))), ((int)(((byte)(140)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.button1.Location = new System.Drawing.Point(88, 40);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(169, 44);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Cerrar sesión ";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox7
             // 
@@ -283,87 +365,6 @@
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
-            // pic_configuracion
-            // 
-            this.pic_configuracion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pic_configuracion.Image = global::proyecto_final_2._1.Properties.Resources.setting_cog_settings_icon_177223;
-            this.pic_configuracion.Location = new System.Drawing.Point(1064, -2);
-            this.pic_configuracion.Name = "pic_configuracion";
-            this.pic_configuracion.Size = new System.Drawing.Size(82, 81);
-            this.pic_configuracion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pic_configuracion.TabIndex = 1;
-            this.pic_configuracion.TabStop = false;
-            this.pic_configuracion.Click += new System.EventHandler(this.pic_configuracion_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::proyecto_final_2._1.Properties.Resources.imagen_ro;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 86);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(312, 407);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(120)))), ((int)(((byte)(140)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.button1.Location = new System.Drawing.Point(88, 40);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 44);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Cerrar sesión ";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // panel_cerrar_sesion
-            // 
-            this.panel_cerrar_sesion.Controls.Add(this.button3);
-            this.panel_cerrar_sesion.Controls.Add(this.button2);
-            this.panel_cerrar_sesion.Controls.Add(this.lbl_cerrar_sesion);
-            this.panel_cerrar_sesion.Location = new System.Drawing.Point(3, 99);
-            this.panel_cerrar_sesion.Name = "panel_cerrar_sesion";
-            this.panel_cerrar_sesion.Size = new System.Drawing.Size(333, 100);
-            this.panel_cerrar_sesion.TabIndex = 21;
-            // 
-            // lbl_cerrar_sesion
-            // 
-            this.lbl_cerrar_sesion.AutoSize = true;
-            this.lbl_cerrar_sesion.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cerrar_sesion.Location = new System.Drawing.Point(3, 0);
-            this.lbl_cerrar_sesion.Name = "lbl_cerrar_sesion";
-            this.lbl_cerrar_sesion.Size = new System.Drawing.Size(299, 23);
-            this.lbl_cerrar_sesion.TabIndex = 20;
-            this.lbl_cerrar_sesion.Text = "¿Seguro que deseas cerrar sesión?";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(120)))), ((int)(((byte)(140)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(20, 41);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 44);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "Confirmar ";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(120)))), ((int)(((byte)(140)))));
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(194, 41);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(117, 44);
-            this.button3.TabIndex = 22;
-            this.button3.Text = "Cancelar";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // Menu_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -395,19 +396,19 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal";
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_configuracion)).EndInit();
             this.panel_menu_principal.ResumeLayout(false);
+            this.panel_cerrar_sesion.ResumeLayout(false);
+            this.panel_cerrar_sesion.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_configuracion)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel_cerrar_sesion.ResumeLayout(false);
-            this.panel_cerrar_sesion.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

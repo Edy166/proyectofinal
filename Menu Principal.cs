@@ -58,5 +58,13 @@ namespace proyecto_final_2._1
             Form1login regresar = new Form1login();
             regresar.ShowDialog();
         }
+
+        private void bt_editar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Editar_Productos editar = new Editar_Productos();
+            editar.ShowDialog();
+            this.Show();
+        }
     }
 }

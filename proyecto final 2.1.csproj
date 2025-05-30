@@ -225,6 +225,12 @@
     <Compile Include="creracion de cuenta .Designer.cs">
       <DependentUpon>creracion de cuenta .cs</DependentUpon>
     </Compile>
+    <Compile Include="Editar Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editar Productos.Designer.cs">
+      <DependentUpon>Editar Productos.cs</DependentUpon>
+    </Compile>
     <Compile Include="menu agregar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -256,6 +262,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="creracion de cuenta .resx">
       <DependentUpon>creracion de cuenta .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editar Productos.resx">
+      <DependentUpon>Editar Productos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu agregar.resx">
       <DependentUpon>menu agregar.cs</DependentUpon>

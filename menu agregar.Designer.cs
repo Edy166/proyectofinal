@@ -93,6 +93,7 @@
             this.btn_agregar_productor.TabIndex = 7;
             this.btn_agregar_productor.Text = "Crear producto";
             this.btn_agregar_productor.UseVisualStyleBackColor = false;
+            this.btn_agregar_productor.Click += new System.EventHandler(this.btn_agregar_productor_Click);
             // 
             // pnlpasswordconfirmar
             // 

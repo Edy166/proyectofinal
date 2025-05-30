@@ -86,7 +86,7 @@ namespace proyecto_final_2._1
 
 
 
-            if (usuario == "" || contrasena == "" || confirmar_contrasena == "")
+            if(  Nombre =="" || usuario == "" || contrasena == "" || confirmar_contrasena == "" || telefono == "")
             {
                 MessageBox.Show("POR FAVOR INGRESE TODOS LOS CAMPOS.");
                 return;
@@ -108,8 +108,8 @@ namespace proyecto_final_2._1
                     conexion.Open();
 
                     // Crear la tabla si no existe.
-                    string CrearTabla = "IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='usuarios1' AND xtype='U')" +
-                        "CREATE TABLE usuarios1 (ID INT IDENTITY(1,1) PRIMARY KEY, USUARIO NVARCHAR(50) NOT NULL, PASSWORD NVARCHAR(100) NOT NULL)";
+                    string CrearTabla = "IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='usu' AND xtype='U')" +
+                        "CREATE TABLE usu (ID INT IDENTITY(1,1) PRIMARY KEY, USUARIO NVARCHAR(50) NOT NULL, PASSWORD NVARCHAR(100) NOT NULL)";
                     using (SqlCommand comando = new SqlCommand(CrearTabla, conexion))
                     {
                         comando.ExecuteNonQuery();
@@ -142,10 +142,9 @@ namespace proyecto_final_2._1
                         if (resultado > 0)
                         {
                             MessageBox.Show("CUENTA CREADA EXITOSAMENTE.");
-                            this.Hide();
-                            Form1login loginForm = new Form1login();
-                            loginForm.ShowDialog();
                             this.Close();
+                            Form1login login = new Form1login();
+                            login.Name = "creracion_de_cuenta";
                         }
                         else
                         {

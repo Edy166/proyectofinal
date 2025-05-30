@@ -114,7 +114,9 @@ namespace proyecto_final_2._1
                     MessageBox.Show("Error al conectar con la base de datos: " + ex.Message);
                 }
             }
-        }
+    }
+
+      
     }
 }
     

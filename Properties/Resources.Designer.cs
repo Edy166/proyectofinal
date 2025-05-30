@@ -104,6 +104,16 @@ namespace proyecto_final_2._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap code_barcode_qrcode_icon_195071 {
+            get {
+                object obj = ResourceManager.GetObject("code_barcode_qrcode_icon_195071", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap compose_edit_modify_icon_177770 {
             get {
                 object obj = ResourceManager.GetObject("compose_edit_modify_icon_177770", resourceCulture);
@@ -147,6 +157,16 @@ namespace proyecto_final_2._1.Properties {
         internal static System.Drawing.Bitmap fire_exit_emergency_door_icon_196812 {
             get {
                 object obj = ResourceManager.GetObject("fire_exit_emergency_door_icon_196812", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gtkgobackltr_104397 {
+            get {
+                object obj = ResourceManager.GetObject("gtkgobackltr_104397", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -277,6 +297,26 @@ namespace proyecto_final_2._1.Properties {
         internal static System.Drawing.Bitmap phone_symbol_of_an_auricular_inside_a_circle_icon_icons_com_56478 {
             get {
                 object obj = ResourceManager.GetObject("phone-symbol-of-an-auricular-inside-a-circle_icon-icons.com_56478", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap price_tag_96983 {
+            get {
+                object obj = ResourceManager.GetObject("price-tag_96983", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap product_delivery_icon_152013 {
+            get {
+                object obj = ResourceManager.GetObject("product_delivery_icon_152013", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

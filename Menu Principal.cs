@@ -12,9 +12,14 @@ namespace proyecto_final_2._1
 {
     public partial class Menu_Principal : Form
     {
+        private object textBoxusuario;
+
         public Menu_Principal()
         {
             InitializeComponent();
+            
+            panel_menu_principal.Visible = false; // OCULTAR EL PANEL DEL MENU PRINCIPAL AL INICIAR
+            panel_cerrar_sesion.Visible = false; // OCULTAR EL PANEL DE CERRAR SESION AL INICIAR
         }
 
         private void bt_Agregar_Click(object sender, EventArgs e)
@@ -23,6 +28,35 @@ namespace proyecto_final_2._1
             menu_agregar agregar = new menu_agregar();
             agregar.ShowDialog();
             this.Show();
+        }
+
+       
+
+        private void pic_configuracion_Click(object sender, EventArgs e)
+        {
+            panel_menu_principal.Visible = true; 
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+             panel_menu_principal.Visible = !panel_menu_principal.Visible;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panel_cerrar_sesion.Visible = !panel_cerrar_sesion.Visible; // MOSTRAR EL PANEL DE CERRAR SESION
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            panel_cerrar_sesion.Visible = !panel_cerrar_sesion.Visible; //mostrar u ocultar el panel de cerrar sesion
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1login regresar = new Form1login();
+            regresar.ShowDialog();
         }
     }
 }

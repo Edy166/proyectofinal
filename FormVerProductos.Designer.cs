@@ -1,6 +1,6 @@
 ﻿namespace proyecto_final_2._1
 {
-    partial class FormPocoStock
+    partial class FormVerProductos
     {
         /// <summary>
         /// Required designer variable.
@@ -29,46 +29,46 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.dataGridViewPocoStock = new System.Windows.Forms.DataGridView();
+            this.dataGridViewProductos = new System.Windows.Forms.DataGridView();
             this.picVolverMenu = new System.Windows.Forms.PictureBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPocoStock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProductos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picVolverMenu)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridViewPocoStock
+            // dataGridViewProductos
             // 
-            this.dataGridViewPocoStock.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewPocoStock.Location = new System.Drawing.Point(78, 31);
-            this.dataGridViewPocoStock.Name = "dataGridViewPocoStock";
-            this.dataGridViewPocoStock.RowHeadersWidth = 51;
-            this.dataGridViewPocoStock.RowTemplate.Height = 24;
-            this.dataGridViewPocoStock.Size = new System.Drawing.Size(1016, 214);
-            this.dataGridViewPocoStock.TabIndex = 0;
+            this.dataGridViewProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewProductos.Location = new System.Drawing.Point(54, 39);
+            this.dataGridViewProductos.Name = "dataGridViewProductos";
+            this.dataGridViewProductos.RowHeadersWidth = 51;
+            this.dataGridViewProductos.RowTemplate.Height = 24;
+            this.dataGridViewProductos.Size = new System.Drawing.Size(872, 284);
+            this.dataGridViewProductos.TabIndex = 0;
+            this.dataGridViewProductos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewProductos_CellContentClick);
             // 
             // picVolverMenu
             // 
-            this.picVolverMenu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.picVolverMenu.Image = global::proyecto_final_2._1.Properties.Resources.fire_exit_emergency_door_icon_196812;
-            this.picVolverMenu.Location = new System.Drawing.Point(12, 12);
+            this.picVolverMenu.Location = new System.Drawing.Point(0, 0);
             this.picVolverMenu.Name = "picVolverMenu";
-            this.picVolverMenu.Size = new System.Drawing.Size(49, 42);
+            this.picVolverMenu.Size = new System.Drawing.Size(48, 40);
             this.picVolverMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picVolverMenu.TabIndex = 1;
             this.picVolverMenu.TabStop = false;
             this.picVolverMenu.Click += new System.EventHandler(this.picVolverMenu_Click);
             // 
-            // FormPocoStock
+            // FormVerProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1203, 330);
+            this.ClientSize = new System.Drawing.Size(1096, 363);
             this.Controls.Add(this.picVolverMenu);
-            this.Controls.Add(this.dataGridViewPocoStock);
-            this.Name = "FormPocoStock";
-            this.Text = "FormPocoStock";
-            this.Load += new System.EventHandler(this.FormPocoStock_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPocoStock)).EndInit();
+            this.Controls.Add(this.dataGridViewProductos);
+            this.Name = "FormVerProductos";
+            this.Text = "FormVerProductos";
+            this.Load += new System.EventHandler(this.FormVerProductos_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProductos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picVolverMenu)).EndInit();
             this.ResumeLayout(false);
 
@@ -76,7 +76,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridViewPocoStock;
+        private System.Windows.Forms.DataGridView dataGridViewProductos;
         private System.Windows.Forms.PictureBox picVolverMenu;
         private System.Windows.Forms.ToolTip toolTip1;
     }

@@ -16,6 +16,9 @@ namespace proyecto_final_2._1
         public FormPocoStock()
         {
             InitializeComponent();
+
+            toolTip1.SetToolTip(picVolverMenu, "Volver al menú principal");
+
         }
 
         private void FormPocoStock_Load(object sender, EventArgs e)
@@ -30,7 +33,7 @@ namespace proyecto_final_2._1
                                       "TrustServerCertificate=False;" +
                                       "Connection Timeout=30;";
 
-            string query = "SELECT * FROM productos WHERE EXISTENCIAS < 10"; // ajusta si se llama diferente
+            string query = "SELECT * FROM productos WHERE EXISTENCIAS < 10"; //Llama la tabla de existencias 
 
             try
             {
@@ -50,6 +53,11 @@ namespace proyecto_final_2._1
             }
         }
 
-
+        private void picVolverMenu_Click(object sender, EventArgs e)
+        {
+            this.Hide();  // Oculta el formulario actual
+            Menu_Principal menu = new Menu_Principal(); // Crea el menú
+            menu.Show();  // Muestra el menú principal
+        }
     }
 }

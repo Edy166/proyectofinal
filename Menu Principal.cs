@@ -74,5 +74,14 @@ namespace proyecto_final_2._1
             pocoStockForm.ShowDialog();
             this.Show();
         }
+
+
+        private void bt_ver_producto_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormVerProductos verProductosForm = new FormVerProductos();
+            verProductosForm.ShowDialog();
+            this.Show();
+        }
     }
 }

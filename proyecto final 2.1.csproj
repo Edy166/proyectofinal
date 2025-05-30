@@ -237,6 +237,12 @@
     <Compile Include="FormPocoStock.Designer.cs">
       <DependentUpon>FormPocoStock.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormVerProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVerProductos.Designer.cs">
+      <DependentUpon>FormVerProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="menu agregar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -274,6 +280,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPocoStock.resx">
       <DependentUpon>FormPocoStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVerProductos.resx">
+      <DependentUpon>FormVerProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu agregar.resx">
       <DependentUpon>menu agregar.cs</DependentUpon>

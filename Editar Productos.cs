@@ -19,7 +19,7 @@ namespace proyecto_final_2._1
             InitializeComponent();
         }
 
-
+        //<<< Conectar a la BD>>>//
         string connectionString = ("Server = tcp:proyectoprogramacion.database.windows.net,1433; Initial Catalog = proyectofinal; Persist Security Info = False; User ID = proyectofinal;Password=2025*umg;MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;");
 
         private void label1_Click(object sender, EventArgs e)
@@ -36,21 +36,22 @@ namespace proyecto_final_2._1
 
         private void btnguardar_Click_1(object sender, EventArgs e)
         {
-            // Obtener datos de los campos
+            //<<< Obtener datos de los campos >>>//
+            string id = txtbuscarid.Text.Trim();
             string nombre = txtnombreprod.Text.Trim();
             string codigo = txtcodprod.Text.Trim();
-            string costoStr = txtpreciocosto.Text.Trim();     // CORRECTO
-            string ventaStr = txtprecioventa.Text.Trim();     // CORRECTO
-            string stockStr = txtexistencias.Text.Trim();     // CORRECTO
+            string costoStr = txtpreciocosto.Text.Trim();     
+            string ventaStr = txtprecioventa.Text.Trim();     
+            string stockStr = txtexistencias.Text.Trim();     
 
-            // Validar que todos los campos estén llenos
+            //<<< Validar que todos los campos estén llenos >>> //
             if (nombre == "" || codigo == "" || costoStr == "" || ventaStr == "" || stockStr == "")
             {
                 MessageBox.Show("POR FAVOR INGRESE TODOS LOS CAMPOS.");
                 return;
             }
 
-            // Validar que los campos numéricos tengan valores correctos
+            //<<< Validar que los campos numéricos tengan valores correctos >>>//
             if (!decimal.TryParse(costoStr, out decimal costo) ||
                 !decimal.TryParse(ventaStr, out decimal venta) ||
                 !int.TryParse(stockStr, out int stock))
@@ -59,6 +60,7 @@ namespace proyecto_final_2._1
                 return;
             }
 
+            //<<< Validar la tabla de productos >>>//
             using (SqlConnection conexion = new SqlConnection(connectionString))
             {
                 try
@@ -84,7 +86,7 @@ namespace proyecto_final_2._1
                         if (filas > 0)
                         {
                             MessageBox.Show("Producto actualizado correctamente.");
-                            this.Close();
+                            
                         }
                         else
                         {
@@ -95,6 +97,46 @@ namespace proyecto_final_2._1
                 catch (Exception ex)
                 {
                     MessageBox.Show("ERROR AL CONECTAR O ACTUALIZAR: " + ex.Message);
+                }
+            }
+        }
+
+        private void btnbuscar_Click(object sender, EventArgs e)
+        {
+            string id = txtbuscarid.Text.Trim();
+
+            if (string.IsNullOrEmpty(id))
+            {
+                MessageBox.Show("Por favor, ingrese un ID.");
+                return;
+            }
+
+            using (SqlConnection conexion = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conexion.Open();
+                    string query = "SELECT * FROM productos WHERE ID = @Id";
+
+                    using (SqlCommand cmd = new SqlCommand(query, conexion))
+                    {
+                        cmd.Parameters.AddWithValue("@Id", id);
+
+                        SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                        DataTable dt = new DataTable();
+                        adapter.Fill(dt);
+
+                        dvgproductos.DataSource = dt;
+
+                        if (dt.Rows.Count == 0)
+                        {
+                            MessageBox.Show("NO SE ENCONTRÓ EL PRODUCTO.");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("ERROR DE BUSQUEDA: " + ex.Message);
                 }
             }
         }

@@ -39,13 +39,14 @@
             this.txtprecioventa = new System.Windows.Forms.TextBox();
             this.txtexistencias = new System.Windows.Forms.TextBox();
             this.btnguardar = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dvgproductos = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblbuscarid = new System.Windows.Forms.Label();
             this.txtbuscarid = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.btnbuscar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dvgproductos)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -154,15 +155,15 @@
             this.btnguardar.UseVisualStyleBackColor = true;
             this.btnguardar.Click += new System.EventHandler(this.btnguardar_Click_1);
             // 
-            // dataGridView2
+            // dvgproductos
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(52, 407);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(632, 184);
-            this.dataGridView2.TabIndex = 13;
+            this.dvgproductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dvgproductos.Location = new System.Drawing.Point(52, 407);
+            this.dvgproductos.Name = "dvgproductos";
+            this.dvgproductos.RowHeadersWidth = 51;
+            this.dvgproductos.RowTemplate.Height = 24;
+            this.dvgproductos.Size = new System.Drawing.Size(632, 184);
+            this.dvgproductos.TabIndex = 13;
             // 
             // groupBox1
             // 
@@ -182,18 +183,6 @@
             this.groupBox1.Size = new System.Drawing.Size(632, 254);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::proyecto_final_2._1.Properties.Resources.fire_exit_emergency_door_icon_196812;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(67, 54);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
             // label1
             // 
@@ -222,21 +211,45 @@
             this.txtbuscarid.Size = new System.Drawing.Size(100, 22);
             this.txtbuscarid.TabIndex = 18;
             // 
+            // btnbuscar
+            // 
+            this.btnbuscar.BackgroundImage = global::proyecto_final_2._1.Properties.Resources.vaso1;
+            this.btnbuscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnbuscar.Location = new System.Drawing.Point(365, 110);
+            this.btnbuscar.Name = "btnbuscar";
+            this.btnbuscar.Size = new System.Drawing.Size(43, 41);
+            this.btnbuscar.TabIndex = 19;
+            this.btnbuscar.UseVisualStyleBackColor = true;
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::proyecto_final_2._1.Properties.Resources.fire_exit_emergency_door_icon_196812;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(67, 54);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
+            // 
             // Editar_Productos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(741, 603);
+            this.Controls.Add(this.btnbuscar);
             this.Controls.Add(this.txtbuscarid);
             this.Controls.Add(this.lblbuscarid);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.dvgproductos);
             this.Name = "Editar_Productos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Editar_Productos";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvgproductos)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -258,11 +271,12 @@
         private System.Windows.Forms.TextBox txtprecioventa;
         private System.Windows.Forms.TextBox txtexistencias;
         private System.Windows.Forms.Button btnguardar;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dvgproductos;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblbuscarid;
         private System.Windows.Forms.TextBox txtbuscarid;
+        private System.Windows.Forms.Button btnbuscar;
     }
 }

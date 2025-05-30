@@ -335,3 +335,5 @@ C:\Users\Victus\Desktop\proyectofinal\obj\Debug\proyecto_final_2._1.Editar_Produ
 C:\Users\Victus\Desktop\proyectofinal\obj\Debug\proyecto.D24103DA.Up2Date
 C:\Users\Victus\Desktop\proyectofinal\obj\Debug\proyecto_final_2._1.FormPocoStock.resources
 C:\Users\Victus\Desktop\proyectofinal\obj\Debug\proyecto_final_2._1.FormVerProductos.resources
+C:\Users\julio\source\repos\Edy166\proyectofinal\obj\Debug\proyecto_final_2._1.FormPocoStock.resources
+C:\Users\julio\source\repos\Edy166\proyectofinal\obj\Debug\proyecto_final_2._1.FormVerProductos.resources

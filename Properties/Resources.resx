@@ -223,13 +223,19 @@
   <data name="phone-symbol-of-an-auricular-inside-a-circle_icon-icons.com_56478" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\phone-symbol-of-an-auricular-inside-a-circle_icon-icons.com_56478.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="vaso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vaso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gtkgobackltr_104397" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gtkgobackltr_104397.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="magnifier-1_icon-icons.com_56924" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\magnifier-1_icon-icons.com_56924.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconfinder-phone-4341310_120556" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder-phone-4341310_120556.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gtkgobackltr_104397" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gtkgobackltr_104397.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="vaso1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vaso1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

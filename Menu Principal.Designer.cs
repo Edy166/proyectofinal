@@ -196,6 +196,7 @@
             this.bt_Eliminar.TabIndex = 15;
             this.bt_Eliminar.Text = "Aceptar";
             this.bt_Eliminar.UseVisualStyleBackColor = false;
+            this.bt_Eliminar.Click += new System.EventHandler(this.bt_Eliminar_Click);
             // 
             // bt_editar
             // 

@@ -83,5 +83,10 @@ namespace proyecto_final_2._1
             verProductosForm.ShowDialog();
             this.Show();
         }
+
+        private void bt_Eliminar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

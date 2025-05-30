@@ -434,6 +434,26 @@ namespace proyecto_final_2._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap vaso {
+            get {
+                object obj = ResourceManager.GetObject("vaso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vaso1 {
+            get {
+                object obj = ResourceManager.GetObject("vaso1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap xd_xd_xd {
             get {
                 object obj = ResourceManager.GetObject("xd xd xd", resourceCulture);

@@ -42,7 +42,7 @@
             this.bt_Agregar = new System.Windows.Forms.Button();
             this.bt_Eliminar = new System.Windows.Forms.Button();
             this.bt_editar = new System.Windows.Forms.Button();
-            this.bt_ver = new System.Windows.Forms.Button();
+            this.bt_ver_producto = new System.Windows.Forms.Button();
             this.bt_poco_stock = new System.Windows.Forms.Button();
             this.panel_menu_principal = new System.Windows.Forms.Panel();
             this.panel_cerrar_sesion = new System.Windows.Forms.Panel();
@@ -210,17 +210,18 @@
             this.bt_editar.UseVisualStyleBackColor = false;
             this.bt_editar.Click += new System.EventHandler(this.bt_editar_Click);
             // 
-            // bt_ver
+            // bt_ver_producto
             // 
-            this.bt_ver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(200)))), ((int)(((byte)(220)))));
-            this.bt_ver.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_ver.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.bt_ver.Location = new System.Drawing.Point(377, 554);
-            this.bt_ver.Name = "bt_ver";
-            this.bt_ver.Size = new System.Drawing.Size(152, 44);
-            this.bt_ver.TabIndex = 17;
-            this.bt_ver.Text = "Aceptar";
-            this.bt_ver.UseVisualStyleBackColor = false;
+            this.bt_ver_producto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(200)))), ((int)(((byte)(220)))));
+            this.bt_ver_producto.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_ver_producto.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.bt_ver_producto.Location = new System.Drawing.Point(377, 554);
+            this.bt_ver_producto.Name = "bt_ver_producto";
+            this.bt_ver_producto.Size = new System.Drawing.Size(152, 44);
+            this.bt_ver_producto.TabIndex = 17;
+            this.bt_ver_producto.Text = "Aceptar";
+            this.bt_ver_producto.UseVisualStyleBackColor = false;
+            this.bt_ver_producto.Click += new System.EventHandler(this.bt_ver_producto_Click_1);
             // 
             // bt_poco_stock
             // 
@@ -233,6 +234,7 @@
             this.bt_poco_stock.TabIndex = 18;
             this.bt_poco_stock.Text = "Aceptar";
             this.bt_poco_stock.UseVisualStyleBackColor = false;
+            this.bt_poco_stock.Click += new System.EventHandler(this.bt_poco_stock_Click);
             // 
             // panel_menu_principal
             // 
@@ -373,7 +375,7 @@
             this.ClientSize = new System.Drawing.Size(1459, 610);
             this.Controls.Add(this.panel_menu_principal);
             this.Controls.Add(this.bt_poco_stock);
-            this.Controls.Add(this.bt_ver);
+            this.Controls.Add(this.bt_ver_producto);
             this.Controls.Add(this.bt_editar);
             this.Controls.Add(this.bt_Eliminar);
             this.Controls.Add(this.bt_Agregar);
@@ -434,7 +436,7 @@
         private System.Windows.Forms.Button bt_Agregar;
         private System.Windows.Forms.Button bt_Eliminar;
         private System.Windows.Forms.Button bt_editar;
-        private System.Windows.Forms.Button bt_ver;
+        private System.Windows.Forms.Button bt_ver_producto;
         private System.Windows.Forms.Button bt_poco_stock;
         private System.Windows.Forms.Panel panel_menu_principal;
         private System.Windows.Forms.PictureBox pictureBox7;

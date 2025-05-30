@@ -333,3 +333,5 @@ C:\Users\Victus\Desktop\proyectofinal\bin\Debug\Twilio.xml
 C:\Users\Victus\Desktop\proyectofinal\bin\Debug\Vonage.xml
 C:\Users\Victus\Desktop\proyectofinal\obj\Debug\proyecto_final_2._1.Editar_Productos.resources
 C:\Users\Victus\Desktop\proyectofinal\obj\Debug\proyecto.D24103DA.Up2Date
+C:\Users\Victus\Desktop\proyectofinal\obj\Debug\proyecto_final_2._1.FormPocoStock.resources
+C:\Users\Victus\Desktop\proyectofinal\obj\Debug\proyecto_final_2._1.FormVerProductos.resources

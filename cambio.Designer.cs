@@ -96,6 +96,7 @@
             this.txtnewpassword.PasswordChar = '*';
             this.txtnewpassword.Size = new System.Drawing.Size(216, 30);
             this.txtnewpassword.TabIndex = 2;
+           // this.txtnewpassword.TextChanged += new System.EventHandler(this.txtnewpassword_TextChanged);
             // 
             // lblcontranueva
             // 
@@ -176,7 +177,6 @@
             this.txtconfirmacion.PasswordChar = '*';
             this.txtconfirmacion.Size = new System.Drawing.Size(216, 30);
             this.txtconfirmacion.TabIndex = 2;
-           
             // 
             // label4
             // 

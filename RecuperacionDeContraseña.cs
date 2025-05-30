@@ -59,10 +59,14 @@ namespace proyecto_final_2._1
                     {
                         MessageBox.Show("Identidad confirmada. Puede continuar con la recuperación.", "Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                        // Puedes continuar con el siguiente paso, por ejemplo:
-                        // cambio_de_contrasena cambio = new cambio_de_contrasena();
-                        // cambio.Show();
-                        // this.Hide();
+                        this.Hide();  // Oculta el formulario actual
+
+                        cambio_de_contrasena cambio = new cambio_de_contrasena();
+                        cambio.UsuarioRecuperado = tbxuser.Text.Trim();  
+                        cambio.ShowDialog();  // Muestra el nuevo formulario
+
+                        this.Close();  // Cierra el formulario actual después de completar
+
                     }
                     else
                     {

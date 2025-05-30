@@ -66,5 +66,13 @@ namespace proyecto_final_2._1
             editar.ShowDialog();
             this.Show();
         }
+
+        private void bt_poco_stock_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormPocoStock pocoStockForm = new FormPocoStock();
+            pocoStockForm.ShowDialog();
+            this.Show();
+        }
     }
 }

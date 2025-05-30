@@ -233,6 +233,7 @@
             this.bt_poco_stock.TabIndex = 18;
             this.bt_poco_stock.Text = "Aceptar";
             this.bt_poco_stock.UseVisualStyleBackColor = false;
+            this.bt_poco_stock.Click += new System.EventHandler(this.bt_poco_stock_Click);
             // 
             // panel_menu_principal
             // 

@@ -14,10 +14,6 @@ namespace proyecto_final_2._1
 {
     public partial class contrasena_olvidada : Form
     {
-
-
-      
-
         public contrasena_olvidada()
         {
             InitializeComponent();

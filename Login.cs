@@ -54,13 +54,13 @@ namespace proyecto_final_2._1
 
         private void textBoxusuario_Enter(object sender, EventArgs e)
         {
-                // Tu código personalizado si deseas
+                
         }
 
         private void textBoxusuario_Leave(object sender, EventArgs e)
         {
           
-            // Tu código personalizado si deseas
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

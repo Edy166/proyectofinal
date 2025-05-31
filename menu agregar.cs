@@ -27,14 +27,14 @@ namespace proyecto_final_2._1
 
         private void btn_agregar_productor_Click(object sender, EventArgs e)
         {
-            // bloque para poder meter producto 
+            
             string Nombre_del_producto = txt_nombre_del_producto.Text.ToLower();
             string codigo = txt_codigo_del_producto.Text.ToLower();
             string costo = txt_precio_costo.Text.ToLower();
             string venta = txt_precio_venta.Text.ToLower();
             string stock = txt_Existencias.Text.ToLower();
 
-            // condicion por si no se llenan los campos 
+            
             if ( Nombre_del_producto == "" || codigo == "" || costo =="" || venta == "" || stock == "")
             {
                 MessageBox.Show("POR FAVOR INGRESE TODOS LOS CAMPOS.");

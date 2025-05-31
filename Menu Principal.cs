@@ -86,7 +86,10 @@ namespace proyecto_final_2._1
 
         private void bt_Eliminar_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            tabla_de_eliminar_productos4 from = new tabla_de_eliminar_productos4();
+            from.ShowDialog ();
+            this.Show();
         }
     }
 }

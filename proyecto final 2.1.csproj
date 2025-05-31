@@ -269,6 +269,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tabla_de_eliminar_productos4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tabla_de_eliminar_productos4.Designer.cs">
+      <DependentUpon>tabla_de_eliminar_productos4.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="cambio.resx">
       <DependentUpon>cambio.cs</DependentUpon>
     </EmbeddedResource>
@@ -306,6 +312,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="tabla_de_eliminar_productos4.resx">
+      <DependentUpon>tabla_de_eliminar_productos4.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

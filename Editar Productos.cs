@@ -127,19 +127,27 @@ namespace proyecto_final_2._1
                         adapter.Fill(dt);
 
                         dvgproductos.DataSource = dt;
-                        dvgproductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
 
                         if (dt.Rows.Count == 0)
                         {
                             MessageBox.Show("NO SE ENCONTRÓ EL PRODUCTO.");
+                            return;
                         }
+
+                        // <<< Rellenar los campos con los valores del producto >>> //
+                        DataRow fila = dt.Rows[0];
+
+                        txtnombreprod.Text = fila["NOMBRE_DEL_PRODUCTO"].ToString();
+                        txtcodprod.Text = fila["CODIGO_DEL_PRODUCTO"].ToString();
+                        txtpreciocosto.Text = fila["PRECIO_COSTO"].ToString();
+                        txtprecioventa.Text = fila["PRECIO_VENTA"].ToString();
+                        txtexistencias.Text = fila["EXISTENCIAS"].ToString();
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("ERROR DE BUSQUEDA: " + ex.Message);
+                    MessageBox.Show("ERROR DE BÚSQUEDA: " + ex.Message);
                 }
             }
         }
-    }
 }

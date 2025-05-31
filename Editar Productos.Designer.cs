@@ -170,7 +170,7 @@
             this.dvgproductos.Name = "dvgproductos";
             this.dvgproductos.RowHeadersWidth = 51;
             this.dvgproductos.RowTemplate.Height = 24;
-            this.dvgproductos.Size = new System.Drawing.Size(1007, 184);
+            this.dvgproductos.Size = new System.Drawing.Size(1007, 224);
             this.dvgproductos.TabIndex = 13;
             // 
             // groupBox1
@@ -248,7 +248,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
-            this.ClientSize = new System.Drawing.Size(1134, 603);
+            this.ClientSize = new System.Drawing.Size(1134, 656);
             this.Controls.Add(this.btnbuscar);
             this.Controls.Add(this.txtbuscarid);
             this.Controls.Add(this.lblbuscarid);
@@ -256,7 +256,9 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dvgproductos);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Editar_Productos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Editar productos";

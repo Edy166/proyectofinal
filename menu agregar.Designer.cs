@@ -32,40 +32,40 @@
             this.pnlprincipal = new System.Windows.Forms.Panel();
             this.btn_agregar_productor = new System.Windows.Forms.Button();
             this.pnlpasswordconfirmar = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.txt_precio_venta = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.pnlname = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.txt_nombre_del_producto = new System.Windows.Forms.TextBox();
             this.lbl_Nombre_del_producto = new System.Windows.Forms.Label();
             this.pnltel = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.txt_Existencias = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.pnlpasword = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.txt_precio_costo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pnluser = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.txt_codigo_del_producto = new System.Windows.Forms.TextBox();
             this.lbl_codigo = new System.Windows.Forms.Label();
             this.lbl_agregar = new System.Windows.Forms.Label();
             this.pic_agregar = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlprincipal.SuspendLayout();
             this.pnlpasswordconfirmar.SuspendLayout();
-            this.pnlname.SuspendLayout();
-            this.pnltel.SuspendLayout();
-            this.pnlpasword.SuspendLayout();
-            this.pnluser.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_agregar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.pnlname.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.pnltel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.pnlpasword.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pnluser.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_agregar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -106,6 +106,16 @@
             this.pnlpasswordconfirmar.Size = new System.Drawing.Size(292, 66);
             this.pnlpasswordconfirmar.TabIndex = 6;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::proyecto_final_2._1.Properties.Resources.price_tag_96983;
+            this.pictureBox7.Location = new System.Drawing.Point(3, 25);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(33, 33);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 3;
+            this.pictureBox7.TabStop = false;
+            // 
             // txt_precio_venta
             // 
             this.txt_precio_venta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
@@ -139,6 +149,16 @@
             this.pnlname.Name = "pnlname";
             this.pnlname.Size = new System.Drawing.Size(295, 80);
             this.pnlname.TabIndex = 5;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::proyecto_final_2._1.Properties.Resources.product_shop_box_item_icon_228152;
+            this.pictureBox4.Location = new System.Drawing.Point(3, 25);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(33, 33);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
             // 
             // txt_nombre_del_producto
             // 
@@ -174,6 +194,16 @@
             this.pnltel.Size = new System.Drawing.Size(295, 80);
             this.pnltel.TabIndex = 4;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::proyecto_final_2._1.Properties.Resources.product_delivery_icon_152013;
+            this.pictureBox5.Location = new System.Drawing.Point(3, 25);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(33, 33);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 3;
+            this.pictureBox5.TabStop = false;
+            // 
             // txt_Existencias
             // 
             this.txt_Existencias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
@@ -208,6 +238,16 @@
             this.pnlpasword.Size = new System.Drawing.Size(292, 80);
             this.pnlpasword.TabIndex = 3;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::proyecto_final_2._1.Properties.Resources.price_tag_96983;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 25);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(33, 33);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
             // txt_precio_costo
             // 
             this.txt_precio_costo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
@@ -241,6 +281,16 @@
             this.pnluser.Name = "pnluser";
             this.pnluser.Size = new System.Drawing.Size(295, 80);
             this.pnluser.TabIndex = 2;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::proyecto_final_2._1.Properties.Resources.code_barcode_qrcode_icon_195071;
+            this.pictureBox3.Location = new System.Drawing.Point(3, 25);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(33, 33);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 3;
+            this.pictureBox3.TabStop = false;
             // 
             // txt_codigo_del_producto
             // 
@@ -287,63 +337,13 @@
             this.pic_agregar.TabIndex = 10;
             this.pic_agregar.TabStop = false;
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::proyecto_final_2._1.Properties.Resources.price_tag_96983;
-            this.pictureBox7.Location = new System.Drawing.Point(3, 25);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 3;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::proyecto_final_2._1.Properties.Resources.product_shop_box_item_icon_228152;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 25);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::proyecto_final_2._1.Properties.Resources.product_delivery_icon_152013;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 25);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 3;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::proyecto_final_2._1.Properties.Resources.price_tag_96983;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 25);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::proyecto_final_2._1.Properties.Resources.code_barcode_qrcode_icon_195071;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 25);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::proyecto_final_2._1.Properties.Resources.fire_exit_emergency_door_icon_196812;
             this.pictureBox1.Location = new System.Drawing.Point(2, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(67, 54);
+            this.pictureBox1.Size = new System.Drawing.Size(92, 73);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -368,20 +368,20 @@
             this.pnlprincipal.ResumeLayout(false);
             this.pnlpasswordconfirmar.ResumeLayout(false);
             this.pnlpasswordconfirmar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.pnlname.ResumeLayout(false);
             this.pnlname.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.pnltel.ResumeLayout(false);
             this.pnltel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.pnlpasword.ResumeLayout(false);
             this.pnlpasword.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnluser.ResumeLayout(false);
             this.pnluser.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_agregar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_agregar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

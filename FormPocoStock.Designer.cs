@@ -51,6 +51,7 @@
             // picVolverMenu
             // 
             this.picVolverMenu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.picVolverMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picVolverMenu.Image = global::proyecto_final_2._1.Properties.Resources.fire_exit_emergency_door_icon_196812;
             this.picVolverMenu.Location = new System.Drawing.Point(3, 3);
             this.picVolverMenu.Name = "picVolverMenu";
@@ -68,8 +69,11 @@
             this.ClientSize = new System.Drawing.Size(1203, 457);
             this.Controls.Add(this.picVolverMenu);
             this.Controls.Add(this.dataGridViewPocoStock);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FormPocoStock";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Poco stock";
             this.Load += new System.EventHandler(this.FormPocoStock_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPocoStock)).EndInit();

@@ -337,3 +337,6 @@ C:\Users\Victus\Desktop\proyectofinal\obj\Debug\proyecto_final_2._1.FormPocoStoc
 C:\Users\Victus\Desktop\proyectofinal\obj\Debug\proyecto_final_2._1.FormVerProductos.resources
 C:\Users\julio\source\repos\Edy166\proyectofinal\obj\Debug\proyecto_final_2._1.FormPocoStock.resources
 C:\Users\julio\source\repos\Edy166\proyectofinal\obj\Debug\proyecto_final_2._1.FormVerProductos.resources
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\obj\Debug\proyecto_final_2._1.Editar_Productos.resources
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\obj\Debug\proyecto_final_2._1.FormPocoStock.resources
+C:\Users\Eddy\Desktop\pruebas de proyecto final progra 1\obj\Debug\proyecto_final_2._1.FormVerProductos.resources

@@ -62,7 +62,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1203, 330);
+            this.ClientSize = new System.Drawing.Size(1203, 457);
             this.Controls.Add(this.picVolverMenu);
             this.Controls.Add(this.dataGridViewPocoStock);
             this.Name = "FormPocoStock";

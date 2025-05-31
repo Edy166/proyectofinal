@@ -127,6 +127,7 @@ namespace proyecto_final_2._1
                         adapter.Fill(dt);
 
                         dvgproductos.DataSource = dt;
+                        dvgproductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
 
                         if (dt.Rows.Count == 0)
                         {

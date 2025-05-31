@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Editar_Productos));
             this.lblnombreprod = new System.Windows.Forms.Label();
             this.lblcodprod = new System.Windows.Forms.Label();
             this.lblexistencias = new System.Windows.Forms.Label();
@@ -57,10 +58,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblnombreprod.AutoSize = true;
-            this.lblnombreprod.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnombreprod.Location = new System.Drawing.Point(211, 18);
+            this.lblnombreprod.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
+            this.lblnombreprod.Location = new System.Drawing.Point(189, 18);
             this.lblnombreprod.Name = "lblnombreprod";
-            this.lblnombreprod.Size = new System.Drawing.Size(217, 25);
+            this.lblnombreprod.Size = new System.Drawing.Size(258, 25);
             this.lblnombreprod.TabIndex = 0;
             this.lblnombreprod.Text = "NOMBRE PRODUCTO";
             this.lblnombreprod.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -69,10 +70,10 @@
             // lblcodprod
             // 
             this.lblcodprod.AutoSize = true;
-            this.lblcodprod.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcodprod.Location = new System.Drawing.Point(13, 85);
+            this.lblcodprod.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
+            this.lblcodprod.Location = new System.Drawing.Point(6, 85);
             this.lblcodprod.Name = "lblcodprod";
-            this.lblcodprod.Size = new System.Drawing.Size(212, 25);
+            this.lblcodprod.Size = new System.Drawing.Size(249, 25);
             this.lblcodprod.TabIndex = 1;
             this.lblcodprod.Text = "CÓDIGO PRODUCTO";
             this.lblcodprod.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -80,10 +81,10 @@
             // lblexistencias
             // 
             this.lblexistencias.AutoSize = true;
-            this.lblexistencias.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblexistencias.Location = new System.Drawing.Point(442, 145);
+            this.lblexistencias.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
+            this.lblexistencias.Location = new System.Drawing.Point(432, 145);
             this.lblexistencias.Name = "lblexistencias";
-            this.lblexistencias.Size = new System.Drawing.Size(146, 25);
+            this.lblexistencias.Size = new System.Drawing.Size(166, 25);
             this.lblexistencias.TabIndex = 2;
             this.lblexistencias.Text = "EXISTENCIAS";
             this.lblexistencias.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -91,10 +92,10 @@
             // lblprecioventa
             // 
             this.lblprecioventa.AutoSize = true;
-            this.lblprecioventa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblprecioventa.Location = new System.Drawing.Point(414, 85);
+            this.lblprecioventa.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
+            this.lblprecioventa.Location = new System.Drawing.Point(405, 85);
             this.lblprecioventa.Name = "lblprecioventa";
-            this.lblprecioventa.Size = new System.Drawing.Size(200, 25);
+            this.lblprecioventa.Size = new System.Drawing.Size(231, 25);
             this.lblprecioventa.TabIndex = 3;
             this.lblprecioventa.Text = "PRECIO VENTA (Q.)";
             this.lblprecioventa.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -102,16 +103,18 @@
             // lblpreciocosto
             // 
             this.lblpreciocosto.AutoSize = true;
-            this.lblpreciocosto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpreciocosto.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
             this.lblpreciocosto.Location = new System.Drawing.Point(13, 141);
             this.lblpreciocosto.Name = "lblpreciocosto";
-            this.lblpreciocosto.Size = new System.Drawing.Size(206, 25);
+            this.lblpreciocosto.Size = new System.Drawing.Size(236, 25);
             this.lblpreciocosto.TabIndex = 4;
             this.lblpreciocosto.Text = "PRECIO COSTO (Q.)";
             this.lblpreciocosto.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // txtnombreprod
             // 
+            this.txtnombreprod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
+            this.txtnombreprod.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtnombreprod.Location = new System.Drawing.Point(216, 48);
             this.txtnombreprod.Name = "txtnombreprod";
             this.txtnombreprod.Size = new System.Drawing.Size(212, 22);
@@ -119,6 +122,7 @@
             // 
             // txtcodprod
             // 
+            this.txtcodprod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
             this.txtcodprod.Location = new System.Drawing.Point(18, 113);
             this.txtcodprod.Name = "txtcodprod";
             this.txtcodprod.Size = new System.Drawing.Size(201, 22);
@@ -126,6 +130,7 @@
             // 
             // txtpreciocosto
             // 
+            this.txtpreciocosto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
             this.txtpreciocosto.Location = new System.Drawing.Point(18, 173);
             this.txtpreciocosto.Name = "txtpreciocosto";
             this.txtpreciocosto.Size = new System.Drawing.Size(201, 22);
@@ -133,6 +138,7 @@
             // 
             // txtprecioventa
             // 
+            this.txtprecioventa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
             this.txtprecioventa.Location = new System.Drawing.Point(419, 113);
             this.txtprecioventa.Name = "txtprecioventa";
             this.txtprecioventa.Size = new System.Drawing.Size(195, 22);
@@ -140,6 +146,7 @@
             // 
             // txtexistencias
             // 
+            this.txtexistencias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
             this.txtexistencias.Location = new System.Drawing.Point(431, 173);
             this.txtexistencias.Name = "txtexistencias";
             this.txtexistencias.Size = new System.Drawing.Size(167, 22);
@@ -157,12 +164,13 @@
             // 
             // dvgproductos
             // 
+            this.dvgproductos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
             this.dvgproductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dvgproductos.Location = new System.Drawing.Point(52, 407);
             this.dvgproductos.Name = "dvgproductos";
             this.dvgproductos.RowHeadersWidth = 51;
             this.dvgproductos.RowTemplate.Height = 24;
-            this.dvgproductos.Size = new System.Drawing.Size(632, 184);
+            this.dvgproductos.Size = new System.Drawing.Size(1007, 184);
             this.dvgproductos.TabIndex = 13;
             // 
             // groupBox1
@@ -178,46 +186,47 @@
             this.groupBox1.Controls.Add(this.lblpreciocosto);
             this.groupBox1.Controls.Add(this.lblexistencias);
             this.groupBox1.Controls.Add(this.lblprecioventa);
-            this.groupBox1.Location = new System.Drawing.Point(52, 147);
+            this.groupBox1.Location = new System.Drawing.Point(226, 147);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(632, 254);
+            this.groupBox1.Size = new System.Drawing.Size(686, 254);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(167, 29);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(317, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(412, 37);
+            this.label1.Size = new System.Drawing.Size(484, 38);
             this.label1.TabIndex = 16;
             this.label1.Text = "MENÚ EDITAR PRODUCTOS";
             // 
             // lblbuscarid
             // 
             this.lblbuscarid.AutoSize = true;
-            this.lblbuscarid.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblbuscarid.Location = new System.Drawing.Point(46, 113);
+            this.lblbuscarid.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
+            this.lblbuscarid.Location = new System.Drawing.Point(309, 119);
             this.lblbuscarid.Name = "lblbuscarid";
-            this.lblbuscarid.Size = new System.Drawing.Size(200, 31);
+            this.lblbuscarid.Size = new System.Drawing.Size(196, 25);
             this.lblbuscarid.TabIndex = 17;
             this.lblbuscarid.Text = "BUSCAR POR ID";
             // 
             // txtbuscarid
             // 
-            this.txtbuscarid.Location = new System.Drawing.Point(268, 119);
+            this.txtbuscarid.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
+            this.txtbuscarid.Location = new System.Drawing.Point(523, 122);
             this.txtbuscarid.Name = "txtbuscarid";
-            this.txtbuscarid.Size = new System.Drawing.Size(100, 22);
+            this.txtbuscarid.Size = new System.Drawing.Size(166, 22);
             this.txtbuscarid.TabIndex = 18;
             // 
             // btnbuscar
             // 
-            this.btnbuscar.BackgroundImage = global::proyecto_final_2._1.Properties.Resources.vaso1;
+            this.btnbuscar.BackgroundImage = global::proyecto_final_2._1.Properties.Resources.magnifier_1_icon_icons_com_56924;
             this.btnbuscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnbuscar.Location = new System.Drawing.Point(365, 110);
+            this.btnbuscar.Location = new System.Drawing.Point(695, 118);
             this.btnbuscar.Name = "btnbuscar";
-            this.btnbuscar.Size = new System.Drawing.Size(43, 41);
+            this.btnbuscar.Size = new System.Drawing.Size(34, 31);
             this.btnbuscar.TabIndex = 19;
             this.btnbuscar.UseVisualStyleBackColor = true;
             this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
@@ -226,9 +235,9 @@
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::proyecto_final_2._1.Properties.Resources.fire_exit_emergency_door_icon_196812;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(3, -1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(67, 54);
+            this.pictureBox1.Size = new System.Drawing.Size(97, 90);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
@@ -238,7 +247,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(741, 603);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
+            this.ClientSize = new System.Drawing.Size(1134, 603);
             this.Controls.Add(this.btnbuscar);
             this.Controls.Add(this.txtbuscarid);
             this.Controls.Add(this.lblbuscarid);
@@ -246,9 +256,10 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dvgproductos);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Editar_Productos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Editar_Productos";
+            this.Text = "Editar productos";
             ((System.ComponentModel.ISupportInitialize)(this.dvgproductos)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

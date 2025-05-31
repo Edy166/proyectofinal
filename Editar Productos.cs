@@ -40,9 +40,9 @@ namespace proyecto_final_2._1
             string id = txtbuscarid.Text.Trim();
             string nombre = txtnombreprod.Text.Trim();
             string codigo = txtcodprod.Text.Trim();
-            string costoStr = txtpreciocosto.Text.Trim();     
-            string ventaStr = txtprecioventa.Text.Trim();     
-            string stockStr = txtexistencias.Text.Trim();     
+            string costoStr = txtpreciocosto.Text.Trim();
+            string ventaStr = txtprecioventa.Text.Trim();
+            string stockStr = txtexistencias.Text.Trim();
 
             //<<< Validar que todos los campos estén llenos >>> //
             if (nombre == "" || codigo == "" || costoStr == "" || ventaStr == "" || stockStr == "")
@@ -86,7 +86,7 @@ namespace proyecto_final_2._1
                         if (filas > 0)
                         {
                             MessageBox.Show("Producto actualizado correctamente.");
-                            
+
                         }
                         else
                         {
@@ -150,4 +150,5 @@ namespace proyecto_final_2._1
                 }
             }
         }
+    }
 }

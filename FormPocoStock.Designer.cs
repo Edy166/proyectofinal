@@ -39,8 +39,9 @@
             // 
             // dataGridViewPocoStock
             // 
+            this.dataGridViewPocoStock.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
             this.dataGridViewPocoStock.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewPocoStock.Location = new System.Drawing.Point(78, 31);
+            this.dataGridViewPocoStock.Location = new System.Drawing.Point(128, 78);
             this.dataGridViewPocoStock.Name = "dataGridViewPocoStock";
             this.dataGridViewPocoStock.RowHeadersWidth = 51;
             this.dataGridViewPocoStock.RowTemplate.Height = 24;
@@ -51,9 +52,9 @@
             // 
             this.picVolverMenu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.picVolverMenu.Image = global::proyecto_final_2._1.Properties.Resources.fire_exit_emergency_door_icon_196812;
-            this.picVolverMenu.Location = new System.Drawing.Point(12, 12);
+            this.picVolverMenu.Location = new System.Drawing.Point(3, 3);
             this.picVolverMenu.Name = "picVolverMenu";
-            this.picVolverMenu.Size = new System.Drawing.Size(49, 42);
+            this.picVolverMenu.Size = new System.Drawing.Size(77, 72);
             this.picVolverMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picVolverMenu.TabIndex = 1;
             this.picVolverMenu.TabStop = false;
@@ -63,6 +64,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(172)))), ((int)(((byte)(189)))));
             this.ClientSize = new System.Drawing.Size(1203, 457);
             this.Controls.Add(this.picVolverMenu);
             this.Controls.Add(this.dataGridViewPocoStock);

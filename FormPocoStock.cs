@@ -57,7 +57,7 @@ namespace proyecto_final_2._1
         {
             this.Hide();  // Oculta el formulario actual
             Menu_Principal menu = new Menu_Principal(); // Crea el menú
-            menu..Name = "Menu_principal";  // Muestra el menú principal
+            menu.Name = "Menu_principal";  // Muestra el menú principal
         }
     }
 }

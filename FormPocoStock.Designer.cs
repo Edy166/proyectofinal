@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPocoStock));
             this.dataGridViewPocoStock = new System.Windows.Forms.DataGridView();
             this.picVolverMenu = new System.Windows.Forms.PictureBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
@@ -65,8 +66,9 @@
             this.ClientSize = new System.Drawing.Size(1203, 457);
             this.Controls.Add(this.picVolverMenu);
             this.Controls.Add(this.dataGridViewPocoStock);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormPocoStock";
-            this.Text = "FormPocoStock";
+            this.Text = "Poco stock";
             this.Load += new System.EventHandler(this.FormPocoStock_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPocoStock)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picVolverMenu)).EndInit();
